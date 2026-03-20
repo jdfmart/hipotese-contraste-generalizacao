@@ -1,0 +1,28 @@
+---
+number: false
+---
+
+# Prólogo {.unnumbered}
+
+::: {.epigraph}
+"Os homens práticos, que se julgam livres de qualquer influência intelectual são habitualmente escravos de algum economista morto."
+
+— John Maynard Keynes (2010, p. 364), *Teoria Geral do Emprego, do Juro e da Moeda*
+:::
+
+A Filosofia e a Matemática e suas subdisciplinas (teoria das probabilidades, estatística, etc.) são valorizadas de forma muito diferente pelos estudantes de ciência, e até algumas vezes pelos próprios investigadores e cientistas. A Matemática (ou a Estatística para a Psicologia, por exemplo) é uma disciplina geralmente considerada como necessária no dia-a-dia dos investigadores quer das ciências naturais quer das ciências sociais. Mais: é tida como a garantia de qualidade de um projeto ou de uma conclusão. A prova do algodão científico em Psicologia é a significância estatística e esta faz e desfaz carreiras e reputações. Para muitos, a teoria das probabilidades representa a própria lógica da ciência (ver Jaynes, 1995). Esse êxito é tão impressionante que o matemático Wigner (1960) escreveu um artigo chamado "A eficácia absurda da Matemática nas Ciências Naturais" onde conclui que: "O milagre da adequação da linguagem da matemática para a formulação das leis da física é uma dádiva maravilhosa que não compreendemos nem merecemos" (p. 14). A Filosofia, pelo contrário, é frequentemente considerada uma curiosidade, talvez com interesse histórico, mas a que nenhum cientista tem necessidade de recorrer no quotidiano da investigação. E em Física, um investigador com reputação mundial, como Steven Weinberg afirmou que "não devemos esperar que [a Filosofia] forneça aos cientistas contemporâneos nenhuma orientação útil sobre como melhor realizar o seu trabalho" (Weinberg, 1989, p. 167). Mais, Weinberg compara diretamente a eficácia da aplicação da Matemática e da Filosofia e contrasta "a ineficácia absurda da Filosofia" com a eficácia absurda da Matemática, parafraseando Wigner. De igual forma, o famosíssimo Stephen Hawking defendeu que "A filosofia está morta [porque] não acompanhou os desenvolvimentos modernos da ciência, particularmente da física." (Hawking & Mlodinow, 2010, p. 5). Mais, quando físicos como Lee Smolin (2008) e Peter Woit (2006) criticaram a impossibilidade de testar (a irrefutabilidade) da Teoria das Cordas (a chamada Teoria de Tudo ou Teoria-M), os defensores desta teoria, tal como Leonard Susskind (2005), acusaram os colegas de serem "Popperazzi", ou seja, seguidores acéfalos do filósofo Karl Popper e da sua noção de que as teorias para merecerem o estatuto científico teriam de ser falsificáveis (ou seja, capazes de serem testadas e de se mostrarem falsas por motivos empíricos, caso sejam, de facto, falsas).
+
+No entanto, como afirmei antes, quer a Filosofia do Conhecimento e Epistemologia, quer a Teoria de Teste em Estatística ou a Teoria de Deteção de Sinais, são mais semelhantes do que, muitas vezes, somos levados a supor. Ambas as disciplinas existem para nos ensinar a construir, desenvolver, criticar e contrastar argumentos sobre o mundo das coisas e das ideias, sejam estes argumentos quantitativos, lógicos ou contrafactuais. E parafraseando Keynes: Os investigadores de ciências naturais que se julgam livres de qualquer influência epistemológica são habitualmente escravos de algum filósofo morto.
+
+Espero que, no final da leitura deste livro, o leitor compreenda que as atitudes descritas antes apesar de comuns, são apenas representações caricaturais da Filosofia e da Matemática e que, no fundo, ambas são fundamentais para o desenvolvimento da investigação científica. Mais, espero que, no final deste livro, seja claro para si, que me lê, que as semelhanças entre o teste de hipótese, a explicação em Estatística e a Filosofia do Conhecimento são mais do que mera coincidência: todos os agentes racionais, na sua busca de conhecimentos, enfrentam a mesma necessidade de encontrarem restrições qualquer que seja o domínio de estímulos em causa — números, conceitos ou factos empíricos.
+
+À medida que eu for apresentando ao leitor os argumentos a favor das semelhanças básicas entre Filosofia e Matemática, irei passar por muitos tópicos essenciais da Epistemologia e Métodos da Ciência. A saber:
+
+- O conceito de conhecimento e a sua discussão filosófica
+- Os critérios de demarcação entre ciência e pseudociência
+- A explicação em ciência
+- A explicação e as redes bayesianas
+- A Teoria de Deteção de Sinais
+- As Teorias de Teste de Fischer e de Neymann-Pearson
+
+É assim possível que este livro cative um público interessado neste tema, mesmo que oriundo de diversas formações e que possa satisfazer alguma da sua curiosidade (ou multiplicá-la). Estou convicto de que este livro, apesar de muitos dos seus exemplos pertencerem a diferentes áreas da Psicologia, apresentará alguns dos tópicos-chave da Epistemologia de forma suficientemente abrangente para que seja de utilidade a todos os curiosos, independentemente da área de formação.

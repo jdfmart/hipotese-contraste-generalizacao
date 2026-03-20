@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1&nbsp; Por que precisamos da ciência — e deste livro? – Hipótese, Contraste, Generalização e Contra-Exemplo</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./02-capitulo2.html" rel="next">
+<link href="./00-prologo.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-364982630eef5352dd1537128a8ed5cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-capitulo1.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Por que precisamos da ciência — e deste livro?</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Hipótese, Contraste, Generalização e Contra-Exemplo</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Procurar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introdução</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-prologo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prólogo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-capitulo1.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Por que precisamos da ciência — e deste livro?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-capitulo2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Que espécie de bicho é a ciência e como separá-la do joio da pseudociência?</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul>
+  <li><a href="#sec-1-1" id="toc-sec-1-1" class="nav-link active" data-scroll-target="#sec-1-1"><span class="header-section-number">1.1</span> Por que Precisamos da Ciência?</a></li>
+  <li><a href="#sec-1-2" id="toc-sec-1-2" class="nav-link" data-scroll-target="#sec-1-2"><span class="header-section-number">1.2</span> Pessoas Supostamente Inteligentes Dão Erros Estúpidos</a></li>
+  <li><a href="#sec-1-3" id="toc-sec-1-3" class="nav-link" data-scroll-target="#sec-1-3"><span class="header-section-number">1.3</span> Racionalidade Limitada e Ilusões Cognitivas</a></li>
+  <li><a href="#sec-1-4" id="toc-sec-1-4" class="nav-link" data-scroll-target="#sec-1-4"><span class="header-section-number">1.4</span> Heurísticas de Substituição, Tendências Confirmatórias e Pseudodiagnosticidade</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Por que precisamos da ciência — e deste livro?</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="epigraph">
+<p><em>I would never die for my beliefs, because I might be wrong.</em></p>
+<p>— Bertrand Russell</p>
+<p><em>When the facts change, I change my mind. What do you do, Sir?</em></p>
+<p>— John Maynard Keynes</p>
+</div>
+<p>Uma das razões mais frequentes para se começar a escrever um livro é imaginar que o livro que pretendemos escrever já tinha sido escrito há alguns anos e que a sua leitura, quando eramos mais novos, teria tido um efeito positivo na nossa vida. E assim é no caso presente. Imagino, de facto, que se tivesse podido ler este livro enquanto fui estudante de Mestrado ou de Doutoramento em Psicologia, o meu percurso intelectual teria sido mais interessante e menos sinuoso, mas não menos divertido ou crítico. Mas este motivo egocêntrico não esgota as razões para a existência deste livro. Considero que um estudante de hoje de um Mestrado ou de Doutoramento de Psicologia tem várias e boas razões para aprender mais sobre Epistemologia da Ciência. A saber:</p>
+<ul>
+<li><p>Ao longo da sua história a Psicologia tem apresentado dificuldades particulares em apresentar-se como Ciência tendo até algumas abordagens psicológicas (por exemplo, a psicanálise) sido usadas por diversos pensadores (por exemplo, Popper) como modelos de referência de uma abordagem pseudocientífica. No entanto, muitas das suas áreas experimentais da Psicologia são eminentemente experimentais, e a Psicologia é cada vez mais ambiciosa do ponto de vista científico e indispensável para qualquer esforço multidisciplinar que pretenda abarcar o ser humano como objeto de estudo.</p></li>
+<li><p>Existe uma coincidência entre o sujeito e o objeto da Psicologia o que leva a que a Psicologia tenha inerentemente carácter reflexivo, uma maior propensão a controvérsias inesgotáveis e à incompreensão da natureza científica. Uma melhor formação em Epistemologia dos nossos investigadores pode contribuir para um posicionamento mais fundamentado acerca da natureza do saber psicológico.</p></li>
+<li><p>Acresce que algumas abordagens contemporâneas pseudocientíficas reivindicam um estatuto científico e uma natureza científica igual aos da Psicologia (por exemplo, a parapsicologia). Daí que conhecer e discutir criticamente os critérios de demarcação entre ciência e não-ciência seja fundamental para a sobrevivência e desenvolvimento da Ciência Psicológica.</p></li>
+</ul>
+<p>Mas não é só à Psicologia Científica que interessa difundir uma ideia mais aprofundada da natureza do conhecimento que produz. Dado que a imagem de ciência é tradicionalmente contaminada pelas particularidades da Física, a melhor compreensão da Psicologia como Ciência levará a uma melhor compreensão do que é a Ciência para além desse figurino demasiado apertado.</p>
+<ul>
+<li>Finalmente, a Psicologia passa a par de outras ciências, por aquilo que alguns autores consideram uma crise de replicabilidade, uma crise que torna necessária a reformulação do que se consideram de boas práticas de investigação. Tal debate tornar-se-á tanto mais difícil de acompanhar quanto menor for a formação em Epistemologia.</li>
+</ul>
+<p>Se é verdade que a Epistemologia da Ciência deveria interessar aos investigadores e estudantes de Psicologia, também é verdade que o campo de potenciais interessados deveria ser ainda muito mais extenso. Na verdade, poderíamos dizer que a Epistemologia da Ciência deveria interessar a três tipos de pessoas: a) filósofos, b) cientistas e c) seres humanos. E porquê?</p>
+<ul>
+<li>Porque a Ciência é um dos empreendimentos humanos mais importantes, conhecê-la é conhecermo-nos melhor.</li>
+<li>Porque a Ciência desenvolveu estratégias e métodos de diagnóstico, resolução de problemas, teste de hipótese e de geração e atualização de conhecimentos que são no geral aplicáveis com grande benefício em outros grandes empreendimentos e até na vida de todos os dias. Compreender minimamente a caixa de ferramentas filosófica e metodológica da ciência quer na sua aplicabilidade, quer nas suas limitações deve, assim, fazer parte da cultura geral de todos nós.</li>
+<li>A autoridade epistemológica dos nossos dias é eminentemente científica, pretende ou finge ser. Saber separar o discurso científico do pseudocientífico é uma tarefa da maior relevância social e política.</li>
+<li>Políticas orientadas empiricamente só podem ser fundamentadas na Ciência e, por isso, a demarcação entre ciência e não ciência é fundamental para a tomada de decisão consciente dos cidadãos de uma sociedade democrática moderna.</li>
+<li>A democratização do acesso à educação só levará a uma sociedade mais esclarecida e progressiva se os seus conteúdos e os seus métodos de ensino se basearem no conhecimento científico contemporâneo. Saber distinguir o discurso científico do pseudocientífico é uma tarefa da maior relevância pedagógica e democrática.</li>
+</ul>
+<p>No que se segue, desenvolverei primeiro um argumento aparentemente digno de La Palice, dedicado à importância da Ciência, e terminarei o capítulo defendendo que a Ciência se tornou indispensável como mecanismo natural de proteção contra as limitações cognitivas humanas e os seus efeitos mais nocivos.</p>
+<section id="sec-1-1" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="sec-1-1"><span class="header-section-number">1.1</span> Por que Precisamos da Ciência?</h2>
+<p>Imaginemos que um dia acordávamos num mundo sem Ciência. Seria um mundo em que não existiria a maior parte da parafernália tecnológica que muitas vezes nos facilita e por vezes nos inferniza a existência, consoante os dias. A maior parte dos avanços tecnológicos advém da oportunidade de aplicar o conhecimento científico a um problema ou a uma necessidade prática. Outros avanços advirão de aperfeiçoamentos ou otimizações das tecnologias já existentes, ou de consequências inesperadas de projetos científico-tecnológicos. Mas, para muitos pensadores, a Ciência não existe para nos oferecer uma multiplicidade de equipamentos tecnológicos; a Ciência existe porque nós somos animais “verdadíferos”. A Ciência existe para nos amparar na nossa busca colaborativa e inesgotável pela verdade. A Ciência existe para nos auxiliar na nossa demanda por conhecimento compartilhável e escrutinável, mas sempre e tão só conjetural. Tais ambições existem em nós e são tão inerentemente humanas que poderíamos dizer que um mundo em que não existisse Ciência seria um mundo em que não existiriam seres humanos, mesmo que admitamos que a humanidade não se esgote na busca da verdade ou do conhecimento.</p>
+<p>E por que será a Ciência tão necessária aos humanos?</p>
+</section>
+<section id="sec-1-2" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="sec-1-2"><span class="header-section-number">1.2</span> Pessoas Supostamente Inteligentes Dão Erros Estúpidos</h2>
+<p>Se o mundo se dividisse em pessoas estúpidas e inteligentes, a vida seria mais simples. Menos simpática, menos interessante, mas mais simples. Mas tal ideia é como a maior parte das grandes simplificações, simplesmente falsa. Mesmo havendo muitas pessoas que acham que o mundo realmente se divide em pessoas inteligentes e estúpidas, tal não torna esta ideia menos falsa. Porque, de facto, se ser estúpido é cometer erros estúpidos, então somos todos estúpidos. E nesse sentido, sinto-me particularmente qualificado para escrever este livro. E início esta introdução, precisamente, com uma ilustração pessoal.</p>
+<p>Como muitos de nós, preocupo-me com as alterações climáticas e, se tenho oportunidade de diminuir a poluição, reciclar, reusar qualquer coisa ou evitar desperdício, tendo a aproveitá-la (sobretudo se for fácil, confesso). Por isso, quando há uns anos, descobri a existência de uma bola ecológica de lavagem (aliás, agora existem dezenas de marcas diferentes), chamemos-lhe a Ecorredonda, entusiasmei-me. Facilmente convenci a minha esposa e colega para experimentar a dita. Supostamente, esta bola dispensava detergentes e os seus malvados fosfatos. Mais concretamente, segundo o fabricante: “A Ecorredonda emite raios infravermelhos que rompem as moléculas de água (H2O), criando um ambiente de forte agitação molecular. Assim, as moléculas menores penetram mais facilmente no tecido. O produto também emite íons negativos que facilitam a libertação de gorduras. De modo geral, a Ecorredonda altera o formato da molécula de água, tornando-a mais eficaz na remoção de manchas.”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Mas os resultados é que mandam e o resultado foi bastante satisfatório! A roupa ficou lavada embora sem qualquer perfume e isto sem uma grama de detergente poluidor e nocivo para o ambiente! Ficámos convencidos.</p>
+<p>Contudo, uma semana ou duas depois, saiu um teste na Deco Proteste. Na capa vinha o título do teste que imediatamente me fez tomar consciência da minha estupidez. O título era qualquer coisa como “Lavagem pouco eficaz: comparação entre os resultados da lavagem de roupa com Ecorredonda versus lavagem de roupa só com água (sem detergente) revela eficácia nula da Ecorredonda”.</p>
+<p>Portanto, eu, na avaliação da eficácia da Ecorredonda tinha chegado a uma apreciação positiva, apenas porque me limitei a comparar o estado da roupa antes e depois de a lavar com a Ecorredonda (e água, claro), quando a comparação deveria ter sido entre os resultados da lavagem com Ecorredonda + água com os de uma lavagem apenas com água. Quando se quer determinar a eficácia causal de um elemento devem-se comparar condições que sejam iguais em tudo exceto na presença ou ausência do suposto elemento causal.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>Mas como teria sido eu capaz de realizar uma comparação enganosa, uma pseudo-comparação, uma escolha pseudo-diagnóstica? Eu, que dou aulas sobre o assunto há mais de 30 anos? É a resposta a esta pergunta que este livro versa. E é a resposta a perguntas semelhantes feitas ao longo da história, que motivou quer a reflexão filosófica sobre a natureza do conhecimento, quer o desenvolvimento de procedimentos, empreendimentos colaborativos e instituições para minimizar a frequência com que a estupidez humana mostra a sua face em episódios deste tipo.</p>
+</section>
+<section id="sec-1-3" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="sec-1-3"><span class="header-section-number">1.3</span> Racionalidade Limitada e Ilusões Cognitivas</h2>
+<p>Aquilo a que chamei “estupidez” pode não ser verdadeiramente estúpido. Aliás, a dicotomia estúpido/inteligente pode ser total ou parcialmente desadequada aos erros cognitivos, frequentemente verificados no desempenho humano. Ao invés de erros, o termo mais adequado seria talvez “compromissos” ou “aproximações”. A ideia é a de que os erros cognitivos são resultantes de um compromisso que existe inevitavelmente na satisfação de necessidades divergentes enfrentadas por nós em tempo real, com restrições na disponibilidade da informação mais diagnóstica e num ambiente complexo e exigente como é o nosso.</p>
+<p>Muitos autores (Brunswik, 1956; Gigerenzer, 1981; Scholz, 2017; Tooby &amp; Cosmides 2005), acreditam que o problema de nos pôr a decidir depressa, satisfatoriamente e com base em informação incompleta foi resolvido pela seleção de acordo com o princípio do bricoleur (Monod, 1962): usando o que temos à mão de forma criativa. Ou seja, quem não tem cão, caça com gato. Por exemplo, quando olhamos para um objeto, formamos uma imagem que atravessa a córnea e chega à íris, que regula a quantidade de luz recebida através da pupila. Passada a pupila, chega ao cristalino uma imagem invertida e bidimensional que é focada sobre a retina. Na retina, mais de cem milhões de células fotorreceptoras transformam as ondas luminosas em impulsos eletroquímicos, que são decodificados pelo cérebro. No cérebro, o nosso Córtex Visual é responsável por extrair informação acerca da profundidade a partir de pistas como a paralaxe binocular (isto é, a disparidade entre as imagens recolhidas pelos dois olhos) e monoculares (por exemplo, o tamanho dos objetos na imagem retiniana, a sobreposição, a paralaxe do movimento, a luminosidade, a textura, as constâncias de tamanho e forma, etc.). Esta extração é possível porque a inserção de uma dimensão de profundidade em imagens bidimensionais traduz-se na existência de pontos de fuga (pontos de convergência aparente das linhas paralelas) e porque os objetos mais próximos surgem, habitualmente, na imagem retinal como maiores, mais iluminados, com mais textura, com maior nitidez, se sobrepõem aos outros objetos, etc. (Okoshi, 1976). O nosso Córtex Visual mobiliza estas regularidades físicas e algumas biológicas como a acomodação visual (modificação muscular da forma do cristalino de modo a focar objetos distantes) para inferir o estado do mundo a partir das imagens retinianas. Estas inferências são um prodígio da evolução natural, mas são inerentemente falíveis. Por exemplo, um aumento de tamanho ou de luminosidade num objeto representado na imagem retiniana, traduz, habitualmente, a aproximação do objeto e é assim que o percecionamos. Mas se estivermos numa sala escura e observarmos um par de balões imóveis cujas dimensões e iluminação estiverem a ser controlados discretamente por um investigador, continuamos a ver o objeto que aumenta de tamanho ou de luminosidade como aproximando-se de nós. Mas, nesse caso, estaremos errados (Ittelson &amp; Kilpatrick, 1951). Chamaríamos por isso o nosso sistema visual de incompetente? A possibilidade de errar é um preço a pagar por vivermos numa realidade 3D e vermos a partir de imagens visuais 2D.</p>
+<p>Existirão sempre elementos inelutavelmente ambíguos como o tamanho dos objetos, a luminosidade, a forma, que dependem simultaneamente dos seus próprios atributos e da distância a que estão de nós. Temos, pois, de usar as pistas disponíveis e nosso conhecimento do mundo como boas apostas, apostas inteligentes sobre o mundo. E quando errarmos, o erro pode não ser apenas um custo da ambiguidade inelutável da perceção humana, mas até uma preciosa oportunidade de aprendizagem.</p>
+<p>O mesmo podemos dizer dos erros cognitivos que se verificam na nossa aprendizagem, na nossa interpretação do mundo, na nossa memória, na nossa resolução de problemas e nas nossas decisões. Pior ainda, porque a nossa vida é, do ponto de vista formal de aquisição de conhecimento, muito pobre. Por exemplo, se estamos indecisos entre duas áreas de especialização muito diferentes (o meu caso) e tivermos escolhido uma, nunca saberemos o que seria a nossa vida se tivéssemos optado pela outra. Ou, se quisermos decidir entre duas ações da bolsa, dificilmente podemos estar seguros de dispor da informação necessária ou, frequentemente, não podemos esperar o tempo necessário para obter melhor informação antes de decidir. Por último e finalmente, mesmo quando sabemos em princípio que métodos devemos usar numa decisão, frequentemente, tal implementação é excessivamente onerosa em termos de tempo ou recursos, tornando-se difícil ou mesmo impossível de realizar na prática. Deste modo, se não possuirmos toda a informação relevante ou se os algoritmos formais mais válidos não forem implementáveis no mundo real, então as nossas respostas cognitivas ao mundo não poderão ser mais do que apostas inteligentes (embora, às vezes sejam, reconheço, menos do inteligentes do que poderiam ser).</p>
+</section>
+<section id="sec-1-4" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="sec-1-4"><span class="header-section-number">1.4</span> Heurísticas de Substituição, Tendências Confirmatórias e Pseudodiagnosticidade</h2>
+<p>E o que fazem, os meros mortais, seres cognitivos agindo num mundo complexo, inconstante e que exige, muitas vezes, comportamentos, julgamentos e decisões sem qualquer garantia de que dispomos de toda a informação relevante e sem tempo para adiamentos? A linha de investigação que deriva do trabalho de Egon Brunswik e Herbert Simon (que já rendeu 5 prémios Nobel), diz-nos que essas meras pistas e indícios falíveis oferecem a informação necessária para realizarmos aproximações razoáveis de uma resposta ótima, aquilo a que os muitos autores designam como heurísticas. As heurísticas são assim procedimentos mentais, eficientes em termos de recursos cognitivos e tempo que, às vezes, permitem uma resposta muito boa e que, na maior parte dos casos, fornecem uma resposta suficiente às exigências dos problemas, mas que, noutros casos, levam a erros e enviesamentos. Segundo alguns autores, estas heurísticas correspondem a estratégias de simplificação que são usadas de forma mais ou menos deliberada (por exemplo, Payne, Bettman, &amp; Johnson, 1993; Gigerenzer et al., 1999). Segundo outros autores, estas heurísticas são utilizadas de forma mais ou menos involuntária e inconsciente, capitalizando pistas razoavelmente diagnósticas que existem no contexto e/ou que derivam secundariamente do funcionamento cognitivo. Estas heurísticas substituiriam assim as dimensões ou atributos informativos, mas que são mais difíceis de aceder ou explorar, por outras dimensões ou atributos que sejam mais acessíveis (e.g., Kahneman &amp; Frederick, 2002; Kahneman, Slovic &amp; Tversky, 1982; Gillovich, Griffin &amp; Kahneman, 2002). Por exemplo, se nos perguntarem:</p>
+<div class="exemplo-box">
+<p><strong>Exemplo 1</strong></p>
+<p>“Imagine um indivíduo de meia-idade de estatura baixa e excesso de peso, pele muito branca, olheiras e um ar cansado e nervoso.</p>
+<p>De 0 a 100, quão provável é o indivíduo ser um jogador compulsivo?”</p>
+</div>
+<p>Uma probabilidade exata parece difícil de obter, mas um número aproximado não parece muito difícil, pois não? Mas como chegaríamos nós a uma probabilidade exata ou sequer aproximada? Não sabemos a frequência relativa de jogadores compulsivos no universo de pessoas com aquelas características. Nem sequer sabemos qual é a frequência de jogadores compulsivos em Portugal! E mesmo que tomássemos a noção de probabilidade como o grau de confiança na correção de julgamento, de onde adviria tal confiança?</p>
+<p>É certo que não temos qualquer acesso a informação probabilística, mas temos uma ideia das características mais típicas de um jogador compulsivo (digamos, um estereótipo): já vimos filmes, lemos romances, ouvimos conversas, se calhar conhecemos alguém com o problema e vamos assumindo o que há de comum nessas personagens reais ou fictícias. Assim, em vez de usar uma dimensão de resposta inacessível — a probabilidade — usamos outra que está mesmo à mão: a semelhança entre o indivíduo descrito e o estereótipo de jogador compulsivo. Claro que em casos como este, muita coisa pode correr mal, quer dizer, as semelhanças encontradas, muitas ou poucas, podem ser totalmente irrelevantes para o julgamento em causa e o estereótipo que serve de padrão pode ter uma relação muito ténue com a realidade.</p>
+<p>Outro exemplo:</p>
+<div class="exemplo-box">
+<p><strong>Exemplo 2</strong></p>
+<p>“Qual é a cidade alemã com o maior número de cinemas: Essen ou Nuremberga?”</p>
+</div>
+<p>Poucas pessoas saberão a resposta a esta pergunta (pelo menos antes de consultarem um motor de busca). No entanto, muitas pessoas diriam Nuremberga, mesmo sem saberem que Essen é uma cidade mais populosa do que Nuremberga. Diriam Nuremberga porque o nome lhes é mais familiar do que Essen. Mas sabem que mais? Teriam razão: Essen tem 25 cinemas e Nuremberga tem 31 (pelo menos segundo o site http://cinematreasures.org/theaters/germany/ a 29/10/2025).</p>
+<p>Mais uma vez trocou-se conhecimento específico inexistente por uma pista com algum valor informativo. Ouvimos mais vezes falar das cidades maiores, por isso os seus nomes tendem a tornar-se mais familiares e as cidades maiores, normalmente, têm mais cinemas. Mas como se entenderá, nem sempre funciona…</p>
+<p>Os erros sistemáticos que cometemos não advêm só das chamadas heurísticas de substituição. Mais dois exemplos:</p>
+<p>Imaginemos que pretendia testar a hipótese de que um dado individuo era de esquerda e que esse individuo pertencia a um estrato da população em que existiam tantas pessoas de esquerda como de direita. Imaginemos que podia fazer uma de duas perguntas de resposta sim/não: “Acha que o sistema nacional de saúde deveria ser totalmente privatizado?” versus “Acha que as companhias de todos os serviços essenciais (água, luz, recolha de lixo) deveriam ser nacionalizadas?” Qual escolheria?</p>
+<p>Em princípio deveríamos escolher a pergunta cujas respostas possíveis melhor discriminassem as pessoas das de esquerda e de direita, certo? Neste caso e antes de escolher uma das perguntas, reparemos que a resposta “sim” a qualquer das duas perguntas parece ser mais informativa do que uma resposta “não”. Isto, porque existem muitas pessoas de esquerda que não concordam com a nacionalização de todos os serviços essenciais e muitas de direita que não concordam com a total privatização do sistema nacional de saúde. Assim sendo, deveríamos concentrar nas respostas “sim” e escolher a pergunta cuja correspondente resposta “sim” fosse mais informativa. Ou seja, deveríamos escolher a pergunta que correspondesse à resposta “sim” que coincidisse com mais respostas “sim” para um grupo e menos respostas “sim” para o outro (quer dizer, escolher a pergunta em que a diferença entre a percentagem de pessoas dos dois grupos que respondem “sim” fosse maior). E não deveria fazer diferença se a sua hipótese fosse que o indivíduo era de esquerda ou de direita. Mas a investigação mostrou que tendemos a preferir perguntas cuja resposta positiva confirma as nossas hipóteses às perguntas cuja resposta positiva refuta essas hipóteses. E assim, é provável que muitas preferissem fazer a segunda pergunta no caso acima descrito, mas mudassem de preferência se a hipótese a testar fosse a contrária. Este viés de resposta foi apelidado como tendências confirmatórias e leva-nos a procurar informação que confirme as nossas expetativas / hipóteses / palpites e evitar informação que as refute. Esta simetria torna a confirmação artificialmente mais provável do que deveria ser, levando um procedimento aparentemente baseado numa busca ativa de dados, a tornar-se num processo ativo de reafirmação das nossas expetativas / hipóteses / palpites.</p>
+<p>Um último exemplo.</p>
+<div class="exemplo-box">
+<p><strong>Exemplo 3</strong></p>
+<p>“Um teste à presença de um novo vírus, o COVID 20 identifica 96% de pessoas infetadas com o COVID 20. Acha que é um bom ou um mau teste?”</p>
+</div>
+<p>96%? Isso é uma percentagem maior do que a encontrada nos atuais testes equivalentes de COVID19. É bom, não? Não necessariamente. Reparemos que, tal como no caso anterior, o que faz um bom teste é a sua capacidade de discriminar entre pessoas infetadas e não infetadas. E tem esse teste tal competência? Não sabemos, para sabermos isso precisaríamos de, pelo menos, conhecer a percentagem de pessoas não infetadas que recebem um resultado positivo. O problema é que muitas vezes não nos apercebemos que nos falta alguma informação crítica. Repare: Se a percentagem de pessoas não infetadas que também recebem um resultado positivo fosse de 96%, a capacidade discriminativa do teste seria 0 e o resultado do teste seria inútil, na medida em que existiria a mesma percentagem de verdadeiros positivos (resultados positivos com a doença) e de falsos positivos (resultado positivo, mas sem a doença). E se a percentagem de pessoas não infetadas que recebessem um resultado positivo fosse 25%, o teste seria útil, mas talvez menos útil do que se poderia pensar, dependendo a utilidade da incidência da doença na população. Senão, repare: se a incidência da doença na população for 20%, o teste tem tanta utilidade a identificar infetados quanto atirar uma moeda ao ar (ver teorema de Bayes no capítulo 2). Vejamos porquê: Pensemos em 100 pessoas. Dessas, 20 vão ter COVID20 (incidência de 20%) das quais 19 vão receber um resultado positivo (96% de verdadeiros positivos é igual 19,2). Mas das oitenta que não terão COVID20, 20 vão receber um resultado positivo (25% de falsos positivos). Daí que receber um resultado positivo com este teste apenas indicaria que ter COVID20 tinha uma probabilidade igual a 50%. O que, mesmo assim, seria útil porque, sem o resultado do teste, a probabilidade de ter a doença seria de 20%.</p>
+<p>Deveria parecer evidente que, se queremos discriminar dois grupos a partir do teste, temos de comparar os resultados do teste nos dois grupos. Mas temos a tendência, apelidada de pseudo-diagnosticidade por Michael Doherty (Doherty et al., 1979), de só considerar os casos de verdadeiros positivos ou considerar a probabilidade de um acontecimento ou da presença de um atributo no caso em que a minha expetativa ou hipótese se confirma em vez de compararmos verdadeiros com falsos positivos e a probabilidade de um acontecimento ou da presença de um atributo nos casos em que a minha expetativa ou hipótese se verifica versus essa mesma probabilidade nos em essa expetativa ou probabilidade se não verifica. É o mesmo que perguntássemos a alguém qual é a principal diferença entre um rio e uma estrada e essa pessoa respondesse: “as estradas são longas”.</p>
+<p>Apesar de utilizarmos atalhos mentais que algumas vezes falham e outras vezes nem se justificam, de não nos darmos conta da falta de informação essencial para emitir um juízo ou produzir uma dada resposta e de usarmos procedimentos para testar os nosso palpites e expetativas e hipóteses que nos condenam à confirmação eterna, não somos desprovidos de racionalidade. Isto porque somos muito melhores a retirar conclusões de dados informativos ou diagnósticos do que a procurar e selecionar dados informativos e diagnósticos. Repare-se como em todos os exemplos anteriores a explicação foi fácil de elaborar e igualmente fácil de assimilar (se não foi, a culpa foi minha por não explicar de forma suficientemente clara). Quer isto dizer que, apesar de não sentirmos a necessidade do que nos falta e sermos maus a procurar, quando o que nos falta vem ter connosco, somos bastantes bons a reconhecê-lo.</p>
+<p>Quando assim é, deveríamos ter um instrumento que nos forçasse às comparações relevantes, mesmo quando o não requeremos. Um instrumento que nos fizesse testar as nossas expetativas ou hipóteses, que nos fornecesse informação sobre o nosso estado de conhecimentos e que nos corrigisse sistematicamente quando erramos.</p>
+<p>Ah, mas esse instrumento existe e chama-se Ciência!</p>
+<p>A Ciência (e o Delineamento &amp; Métodos) obriga-nos a obter e selecionar dados, não de acordo com a nossa intuição, mas de acordo com princípios metodológicos críticos (normalmente incorporados em procedimentos de amostragem e delineamento). Assim, o exercício crítico da ciência é insubstituível como recurso de exploração e compreensão do mundo.</p>
+<p>Nos próximos capítulos vamos discutir o que é Ciência, como a demarcamos de outros empreendimentos intelectuais humanos (Cap. 2), o que são explicações científicas e como têm evoluído ao longo do tempo (Cap. 3), a natureza das Redes Bayesianas enquanto instrumento matemático que facilita a geração, representação e teste de explicações (Cap. 4), como se testam hipóteses em Ciência, tomando como exemplo, a teoria de teste em Estatística e a Teoria da Deteção de Sinais (Cap. 5) e uma Conclusão Geral aonde apresento a síntese dos meus argumentos e algumas especulações.</p>
+<div class="sumario-box">
+<p><strong>Sumário do Capítulo 1</strong></p>
+<p><strong>1. O que é e por que precisamos da Ciência?</strong></p>
+<p>A Ciência, enquanto prática epistémica coletiva, ainda que histórica e socialmente situada, não se define primordialmente pelas suas aplicações instrumentais ou tecnológicas, mas pelo seu compromisso normativo com a produção de conhecimento fiável acerca do mundo. A sua razão de ser assenta na valorização da procura da verdade e na adoção de métodos sistemáticos que visam minimizar o erro e a arbitrariedade na formação de crenças. Nesse sentido, a Ciência constitui o quadro metodológico mais robusto de que dispomos para a investigação empírica da realidade. Através da formalização de procedimentos de observação, experimentação e inferência, a prática científica promove a crítica e a identificação de enviesamentos sistemáticos, permitindo a correção progressiva das nossas representações do mundo natural. Este processo de autocorreção sustenta o carácter cumulativo do conhecimento científico, ainda que sempre provisório e conjetural. Assim, longe de oferecer verdades finais, a Ciência fornece modelos explicativos suscetíveis de revisão e refinamento contínuos, cuja validade depende da sua capacidade de resistir à crítica empírica e teórica. Deste modo, a Ciência deve ser compreendida não como um repositório estático de factos, mas como um método dinâmico de produção e justificação do conhecimento.</p>
+<p><strong>2. Pessoas Supostamente Inteligentes dão erros estúpidos</strong> (Tendências Confirmatórias e Pseudodiagnosticidade)</p>
+<p>Os erros cognitivos não constituem um exclusivo de indivíduos considerados pouco capazes do ponto de vista intelectual. Pelo contrário, indivíduos tidos como inteligentes ou altamente qualificados também estão sujeitos a cometer erros graves de julgamento. A propensão para sobrevalorizar a informação mais saliente num dado momento e para negligenciar hipóteses alternativas às nossas expectativas ou aos nossos modelos explicativos (as chamadas tendências confirmatórias e estratégias de pseudodiagnosticidade) é um traço amplamente partilhado, presente tanto na população em geral como nas elites intelectuais, independentemente do grau de formação, sofisticação cultural ou estatuto académico. Consequentemente, não podemos assumir que as nossas intuições sobre o mundo, sobre os problemas que enfrentamos ou sobre as soluções que concebemos sejam, por si só, fiáveis. Tal assunção tornaria dispensáveis a crítica sistemática e o confronto empírico das nossas ideias com a realidade, precisamente os mecanismos que permitem corrigir erros e refinar o conhecimento. É neste contexto que se torna ainda mais evidente a necessidade da Ciência referida no ponto anterior: enquanto prática metodologicamente estruturada, a Ciência funciona como um sistema de controlo epistémico destinado a mitigar as limitações inerentes à cognição humana.</p>
+<p><strong>3. Racionalidade Limitada e Ilusões Cognitivas</strong></p>
+<p>Aquilo a que anteriormente referi como “erros estúpidos” dificilmente pode ser compreendido como um défice cognitivo simples ou como uma falha isolada de indivíduos menos capazes. A dicotomia entre “inteligência” e “estupidez” revela-se, assim, conceptualmente insuficiente para explicar os padrões de erro sistemático observados no comportamento humano. Em consonância com a noção de racionalidade limitada, proposta por Herbert Simon, esses erros devem ser entendidos como o resultado de estratégias adaptativas que procuram equilibrar múltiplas exigências sob condições de recursos cognitivos finitos, informação incompleta e constrangimentos temporais. Neste enquadramento, os chamados erros cognitivos não correspondem necessariamente a falhas do sistema cognitivo, mas antes a compromissos funcionais (trade-offs) inerentes ao uso de heurísticas — procedimentos simplificados de decisão que permitem responder de forma eficiente a ambientes complexos. Como argumentado por Tversky e Kahneman (1984), tais heurísticas são mais semelhantes a ilusões percetivas funcionais do que a deficits e, como tal, tendem a produzir enviesamentos sistemáticos em determinados contextos, precisamente porque privilegiam rapidez e economia cognitiva em detrimento de precisão normativa. Assim, aquilo que à primeira vista se apresenta como erro ou irracionalidade pode ser mais adequadamente interpretado como uma consequência previsível de mecanismos cognitivos adaptados para operar eficazmente na maioria das situações quotidianas, ainda que falhem em cenários específicos. Deste modo, os erros cognitivos devem ser compreendidos não como desvios acidentais de uma racionalidade ideal, mas como expressões estruturais de um sistema cognitivo que evoluiu para funcionar sob limitações reais, num ambiente dinâmico e incerto.</p>
+<p><strong>4. Heurísticas Adaptativas e Substituição de Atributos</strong></p>
+<p>Os agentes humanos — enquanto sistemas cognitivos finitos — atuam num mundo complexo, dinâmico e frequentemente incerto, que exige julgamentos e decisões rápidas, sem garantia de acesso a toda a informação relevante e, muitas vezes, sem possibilidade de adiamento. A linha de investigação inaugurada por Egon Brunswik e Herbert Simon — cujos contributos deram origem a múltiplos Prémios Nobel — sugere que os indivíduos recorrem a pistas parciais e inevitavelmente falíveis que, ainda assim, contêm informação suficiente para produzir aproximações razoáveis a soluções ótimas. Estas estratégias são geralmente designadas por heurísticas. As heurísticas podem ser entendidas como procedimentos mentais que privilegiam a eficiência temporal e a economia de recursos cognitivos. Em determinados contextos, permitem alcançar desempenhos notavelmente bons e, na maioria das situações, produzem respostas adequadas às exigências dos problemas enfrentados. Contudo, em circunstâncias específicas, o seu uso pode conduzir a erros sistemáticos e enviesamentos. De acordo com algumas abordagens, as heurísticas correspondem a estratégias de simplificação deliberadas, utilizadas de forma mais ou menos consciente pelos indivíduos para gerir a complexidade da decisão (e.g., Payne, Bettman, &amp; Johnson, 1993; Gigerenzer et al., 1999). Outras perspetivas defendem que as heurísticas operam de modo largamente automático e não consciente, explorando pistas contextuais razoavelmente diagnósticas ou informações que emergem secundariamente do próprio funcionamento cognitivo. Neste último enquadramento, as heurísticas funcionam através da substituição de atributos: dimensões informativas que seriam normativamente relevantes, mas difíceis de avaliar, são substituídas por outras mais acessíveis ou salientes (e.g., Kahneman &amp; Frederick, 2002; Kahneman, Slovic, &amp; Tversky, 1982; Gillovich, Griffin, &amp; Kahneman, 2002). Assim, longe de representarem falhas do raciocínio, as heurísticas refletem mecanismos adaptativos que permitem aos agentes cognitivos funcionar eficazmente sob restrições reais de tempo, informação e capacidade computacional.</p>
+</div>
+
+
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Em minha defesa, tenho a dizer que não li esta explicação antes de utilizar a Ecorredonda.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Note-se que, quer para meu consolo quer para meu desespero, uma consulta recente na Amazon permitiu-me ver que há milhares de avaliações extremamente positivas de milhares de contentes utilizadores. Aliás a própria Quercus emitiu no seu Minuto Verde da RTP, uma avaliação muito positiva do mesmo produto. Mas ninguém refere a comparação chave da DECO — a comparação Ecorredonda + água versus água.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./00-prologo.html" class="pagination-link" aria-label="Prólogo">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Prólogo</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./02-capitulo2.html" class="pagination-link" aria-label="Que espécie de bicho é a ciência e como separá-la do joio da pseudociência?">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Que espécie de bicho é a ciência e como separá-la do joio da pseudociência?</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

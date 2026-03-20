@@ -1,0 +1,214 @@
+/* ============================================================
+   EXEMPLO BOX
+   Gold/amber left border, very light warm background,
+   dark brown text for full contrast
+   ============================================================ */
+.exemplo-box {
+  border-left: 5px solid #B8860B;
+  background-color: #FDF8EC;
+  border-radius: 0 6px 6px 0;
+  padding: 1.2rem 1.5rem;
+  margin: 1.8rem 0;
+  color: #2C1A00;
+}
+
+.exemplo-box strong:first-child {
+  display: block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #7A5500;
+  margin-bottom: 0.6rem;
+}
+
+/* ============================================================
+   SUMÁRIO BOX
+   Slate/teal full border, very light blue-gray background,
+   dark navy text for full contrast
+   ============================================================ */
+.sumario-box {
+  border: 1.5px solid #2E6E7E;
+  background-color: #EEF6F8;
+  border-radius: 8px;
+  padding: 1.5rem 1.8rem;
+  margin: 2.5rem 0 1rem;
+  color: #0D2B33;
+}
+
+.sumario-box strong:first-child {
+  display: block;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #1A5060;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #B0D4DC;
+}
+
+.sumario-box p {
+  color: #0D2B33;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.sumario-box strong {
+  color: #0D2B33;
+}
+
+/* ============================================================
+   EPIGRAPH
+   Right-aligned, serif, muted — for chapter opening quotes
+   ============================================================ */
+.epigraph {
+  margin: 2rem 0 2.5rem auto;
+  max-width: 60%;
+  text-align: right;
+  font-style: italic;
+  color: #4A4A4A;
+  border-right: 3px solid #B8860B;
+  padding-right: 1.2rem;
+  line-height: 1.7;
+}
+
+.epigraph p:last-child {
+  font-style: normal;
+  font-size: 0.88rem;
+  color: #6A6A6A;
+  margin-top: 0.4rem;
+}
+
+/* ============================================================
+   GENERAL TYPOGRAPHY ADJUSTMENTS
+   ============================================================ */
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.8;
+  color: #1A1A1A;
+}
+
+h1 {
+  font-weight: 600;
+  color: #1A1A1A;
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  font-weight: 600;
+  color: #1A1A1A;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-weight: 600;
+  color: #1A1A1A;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* ============================================================
+   LEFT SIDEBAR SPACING
+   ============================================================ */
+.sidebar-chapter-title {
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.sidebar nav a {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   RIGHT-SIDE TOC — "Neste capítulo" title
+   ============================================================ */
+#TOC::before {
+  content: "Neste capítulo";
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #4A4A4A;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+#TOC > h2 {
+  display: none;
+}
+
+/* ============================================================
+   TÓPICO BOX
+   Neutral gray — for extended topic asides
+   ============================================================ */
+.topico-box {
+  border-left: 4px solid #888780;
+  background-color: #F7F6F2;
+  border-radius: 0 6px 6px 0;
+  padding: 1.4rem 1.8rem;
+  margin: 2rem 0;
+  color: #2C2C2A;
+}
+
+.topico-box strong:first-child {
+  display: block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #5F5E5A;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #D3D1C7;
+}
+
+.topico-box p {
+  color: #2C2C2A;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.topico-box h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2C2C2A;
+  margin-top: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+#TOC ul {
+  padding-left: 0.5rem;
+}
+
+#TOC li {
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   DIVIDER BOX
+   Solid gold/amber background — centered section title divider
+   ============================================================ */
+.divider-box {
+  background-color: #B8860B;
+  border-radius: 6px;
+  padding: 1.2rem 2rem;
+  margin: 2.5rem 0;
+  text-align: center;
+}
+
+.divider-box p {
+  color: #FDF8EC;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 0;
+}

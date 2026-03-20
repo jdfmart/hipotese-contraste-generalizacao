@@ -1,0 +1,24 @@
+---
+number: false
+toc: false
+---
+
+# Introdução {.unnumbered}
+
+::: {.epigraph}
+"Confesso francamente: foi a advertência de David Hume que, há muitos anos, interrompeu o meu sono dogmático e deu às minhas investigações, no campo da filosofia especulativa, uma orientação inteiramente diversa."
+
+— Kant (1998, p. 17), *Prolegômenos a toda a metafísica futura*
+:::
+
+<img src="cover.png" alt="Capa do livro" style="width: 45%; float: right; margin: 0 0 1.5rem 2rem; border-radius: 4px;"/>
+
+Este livro é sobre uma ideia simples com consequências profundas: a Filosofia do Conhecimento e a Estatística — disciplinas habitualmente ensinadas em salas separadas, por pessoas que raramente conversam entre si — estão a falar, no fundo, da mesma coisa.
+
+Ambas existem porque somos criaturas imperfeitas a tentar compreender um mundo complexo. Cometemos erros sistemáticos de julgamento, procuramos confirmação em vez de refutação, e avaliamos evidências de forma enviesada — não por falta de inteligência, mas por excesso de humanidade. A Ciência surgiu, em grande medida, como resposta institucional a essas limitações cognitivas. E tanto a Filosofia da Ciência como os métodos estatísticos de teste de hipóteses são tentativas de formalizar essa resposta.
+
+O livro percorre os grandes momentos dessa história: o cepticismo e o dogmatismo, o empirismo e o racionalismo, o Positivismo Lógico do Círculo de Viena, o falsificacionismo de Popper, os paradigmas de Kuhn, os programas de investigação de Lakatos, e a anarquia epistemológica de Feyerabend. A partir daí, a discussão move-se para o interior da prática científica: o que são explicações científicas, como funcionam as Redes Bayesianas, e como a Teoria de Deteção de Sinais e as teorias de teste de Fisher e Neyman-Pearson traduzem, em linguagem matemática, os mesmos problemas que os filósofos debatem há séculos.
+
+O livro destina-se a estudantes de pós-graduação — sobretudo em Psicologia, mas não exclusivamente — e a qualquer leitor curioso sobre a natureza do conhecimento científico. Não exige formação prévia em Filosofia nem em Estatística avançada. Exige apenas disposição para questionar o que julgamos já saber.
+
+<div style="clear: both;"></div>

@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Hipótese, Contraste, Generalização e Contra-Exemplo"
+  subtitle: "Filosofia da Ciência e Métodos de Inferência"
+  author: "Leonel Garcia-Marques"
+  date: today
+  language: pt
+  chapters:
+    - index.qmd
+    - 00-prologo.qmd
+    - 01-capitulo1.qmd
+    - 02-capitulo2.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    lang: pt
