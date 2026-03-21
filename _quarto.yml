@@ -12,11 +12,18 @@ book:
     right:
       - text: "&#128196; Obter em PDF"
         href: HCGCE.pdf
+      - text: "&#128269; Visualizador PDF"
+        href: pdf-viewer.html
+  sidebar:
+    title: "Índice"
   chapters:
     - index.qmd
     - 00-prologo.qmd
-    - 01-capitulo1.qmd
-    - 02-capitulo2.qmd
+    - part: "---"
+      chapters:
+        - 01-capitulo1.qmd
+        - 02-capitulo2.qmd
+    - pdf-viewer.qmd
 
 bibliography: references.bib
 
