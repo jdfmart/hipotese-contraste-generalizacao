@@ -8,6 +8,10 @@ book:
   author: "Leonel Garcia-Marques"
   date: today
   language: pt
+  navbar:
+    right:
+      - text: "&#128196; Obter em PDF"
+        href: HCGCE.pdf
   chapters:
     - index.qmd
     - 00-prologo.qmd
