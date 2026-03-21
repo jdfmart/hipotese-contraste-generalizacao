@@ -23,7 +23,6 @@ book:
       chapters:
         - 01-capitulo1.qmd
         - 02-capitulo2.qmd
-    - pdf-viewer.qmd
 
 bibliography: references.bib
 
