@@ -6,7 +6,6 @@ book:
   title: "Hipótese, Contraste, Generalização e Contra-Exemplo"
   subtitle: "Filosofia da Ciência e Métodos de Inferência"
   author: "Leonel Garcia-Marques"
-  date: today
   language: pt
   navbar:
     right:
