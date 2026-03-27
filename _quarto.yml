@@ -8,11 +8,18 @@ book:
   author: "Leonel Garcia-Marques"
   language: pt
   navbar:
+    pinned: true
     right:
-      - text: "&#128196; Obter em PDF"
+      - text: "Baixar PDF"
+      - icon: filetype-pdf
         href: HCGCE.pdf
-      - text: "&#128269; Visualizador PDF"
+      - text: "|"
+      - text: "Ler PDF online"
+      - icon: book
         href: pdf-viewer.html
+      - text: "|"
+      - icon: envelope-at
+        href: mailto:email@email.com
   sidebar:
     title: "Índice"
   chapters:
