@@ -11,10 +11,12 @@ book:
     pinned: true
     right:
       - text: "Baixar PDF"
+        href: HCGCE.pdf
       - icon: filetype-pdf
         href: HCGCE.pdf
       - text: "|"
       - text: "Ler PDF online"
+        href: pdf-viewer.html
       - icon: book
         href: pdf-viewer.html
       - text: "|"
