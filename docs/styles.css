@@ -1,4 +1,433 @@
 /* ============================================================
+   GOOGLE FONTS — Lora (serif option)
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ============================================================
+   THEME: TERRA-COTTA
+   ============================================================ */
+
+body.theme-terra {
+  background-color: #F5EDE0;
+  color: #2B1A10;
+}
+body.theme-terra h1,
+body.theme-terra h2,
+body.theme-terra h3 {
+  color: #2B1A10;
+}
+body.theme-terra .navbar {
+  background-color: #8B3A1A !important;
+}
+body.theme-terra .navbar .navbar-title,
+body.theme-terra .navbar .navbar-brand,
+body.theme-terra .navbar .nav-link,
+body.theme-terra .navbar .bi,
+body.theme-terra .navbar .menu-text {
+  color: #fff !important;
+  opacity: 1;
+}
+body.theme-terra .quarto-secondary-nav {
+  background-color: #EDE0CE !important;
+  border-bottom-color: #D9C4A8 !important;
+}
+body.theme-terra #quarto-sidebar {
+  background-color: #EDE0CE;
+}
+body.theme-terra #quarto-margin-sidebar {
+  background-color: transparent;
+}
+body.theme-terra .sidebar-menu-container::before,
+body.theme-terra #TOC::before {
+  color: #7A3010;
+  border-bottom-color: #CDB08A;
+}
+body.theme-terra #TOC a,
+body.theme-terra .sidebar-item a {
+  color: #4A2510;
+}
+body.theme-terra #TOC a:hover,
+body.theme-terra .sidebar-item a:hover {
+  color: #C05A2A;
+}
+body.theme-terra .sidebar-item.active > a,
+body.theme-terra .sidebar-item.active > .sidebar-item-container a {
+  color: #C05A2A;
+}
+body.theme-terra .exemplo-box {
+  border-left-color: #C05A2A;
+  background-color: #F0E2CE;
+  color: #2B1A10;
+}
+body.theme-terra .exemplo-box strong:first-child {
+  color: #8B3A1A;
+}
+body.theme-terra .sumario-box {
+  border-color: #8B5A3A;
+  background-color: #EDE0CE;
+  color: #2B1A10;
+}
+body.theme-terra .sumario-box strong:first-child {
+  color: #6A3018;
+  border-bottom-color: #CDB08A;
+}
+body.theme-terra .sumario-box p,
+body.theme-terra .sumario-box strong {
+  color: #2B1A10;
+}
+body.theme-terra .topico-box {
+  border-left-color: #B0845A;
+  background-color: #EDE5D6;
+  color: #2B1A10;
+}
+body.theme-terra .topico-box strong:first-child {
+  color: #7A5030;
+  border-bottom-color: #CDB08A;
+}
+body.theme-terra .divider-box {
+  background-color: #C05A2A;
+}
+body.theme-terra .epigraph {
+  border-right-color: #C05A2A;
+  color: #5A3A20;
+}
+body.theme-terra a {
+  color: #9B3E18;
+}
+body.theme-terra a:hover {
+  color: #C05A2A;
+}
+body.theme-terra .cta-link {
+  border-color: #C05A2A;
+  color: #C05A2A !important;
+}
+body.theme-terra .cta-link:hover {
+  background-color: #C05A2A;
+  color: #F5EDE0 !important;
+}
+body.theme-terra .landing-structure-section {
+  background-color: #EDE5D6;
+}
+body.theme-terra .landing-part h3 {
+  color: #7A3010;
+  border-bottom-color: #C05A2A;
+}
+body.theme-terra .chapter-item {
+  border-bottom-color: #D9C4A8;
+}
+body.theme-terra .chapter-item strong a,
+body.theme-terra .chapter-item a {
+  color: #2B1A10;
+}
+body.theme-terra .chapter-item strong a:hover,
+body.theme-terra .chapter-item a:hover {
+  color: #C05A2A;
+}
+body.theme-terra .footer-link {
+  color: #D0CEC8 !important;
+}
+body.theme-terra .footer-link:hover {
+  color: #E8906A !important;
+}
+
+/* ============================================================
+   THEME: DARK MODE
+   ============================================================ */
+
+body.theme-dark {
+  background-color: #1C1C1C;
+  color: #DEDAD4;
+}
+body.theme-dark h1,
+body.theme-dark h2,
+body.theme-dark h3 {
+  color: #E8E4DC;
+}
+body.theme-dark .navbar {
+  background-color: #111111 !important;
+}
+body.theme-dark .quarto-secondary-nav {
+  background-color: #242424 !important;
+  border-bottom-color: #333 !important;
+}
+body.theme-dark #quarto-sidebar {
+  background-color: #242424;
+}
+body.theme-dark .sidebar-menu-container::before,
+body.theme-dark #TOC::before {
+  color: #9A9690;
+  border-bottom-color: #3A3A3A;
+}
+body.theme-dark #TOC a,
+body.theme-dark .sidebar-item a {
+  color: #B8B4AE;
+}
+body.theme-dark #TOC a:hover,
+body.theme-dark .sidebar-item a:hover {
+  color: #D4A450;
+}
+body.theme-dark .sidebar-item.active > a,
+body.theme-dark .sidebar-item.active > .sidebar-item-container a {
+  color: #D4A450;
+}
+body.theme-dark .exemplo-box {
+  border-left-color: #D4A450;
+  background-color: #252218;
+  color: #DEDAD4;
+}
+body.theme-dark .exemplo-box strong:first-child {
+  color: #C49030;
+}
+body.theme-dark .sumario-box {
+  border-color: #3A6878;
+  background-color: #1C2A30;
+  color: #DEDAD4;
+}
+body.theme-dark .sumario-box strong:first-child {
+  color: #6AACBE;
+  border-bottom-color: #3A6878;
+}
+body.theme-dark .sumario-box p,
+body.theme-dark .sumario-box strong {
+  color: #DEDAD4;
+}
+body.theme-dark .topico-box {
+  border-left-color: #666360;
+  background-color: #242422;
+  color: #DEDAD4;
+}
+body.theme-dark .topico-box strong:first-child {
+  color: #9A9690;
+  border-bottom-color: #3A3A3A;
+}
+body.theme-dark .topico-box p {
+  color: #DEDAD4;
+}
+body.theme-dark .divider-box {
+  background-color: #3A2E10;
+}
+body.theme-dark .divider-box p {
+  color: #D4A450;
+}
+body.theme-dark .epigraph {
+  border-right-color: #D4A450;
+  color: #9A9690;
+}
+body.theme-dark a {
+  color: #D4A450;
+}
+body.theme-dark a:hover {
+  color: #E8C070;
+}
+body.theme-dark .cta-link {
+  border-color: #D4A450;
+  color: #D4A450 !important;
+}
+body.theme-dark .cta-link:hover {
+  background-color: #D4A450;
+  color: #1C1C1C !important;
+}
+body.theme-dark .landing-structure-section {
+  background-color: #242424;
+}
+body.theme-dark .landing-part h3 {
+  color: #C49030;
+  border-bottom-color: #D4A450;
+}
+body.theme-dark .chapter-item {
+  border-bottom-color: #333333;
+}
+body.theme-dark .chapter-item strong a,
+body.theme-dark .chapter-item a {
+  color: #DEDAD4;
+}
+body.theme-dark .chapter-item strong a:hover,
+body.theme-dark .chapter-item a:hover {
+  color: #D4A450;
+}
+body.theme-dark .landing-subtitle {
+  color: #9A9690;
+}
+body.theme-dark .landing-author {
+  color: #6A6660;
+}
+body.theme-dark .badge-soon {
+  background-color: #333;
+  color: #666;
+}
+body.theme-dark .chapter-soon p {
+  color: #555;
+}
+body.theme-dark code,
+body.theme-dark pre {
+  background-color: #2A2A2A;
+  color: #DEDAD4;
+}
+
+/* ============================================================
+   FONT: SERIF (Lora)
+   ============================================================ */
+
+body.font-serif {
+  font-family: 'Lora', Georgia, serif;
+}
+body.font-serif h1,
+body.font-serif h2,
+body.font-serif h3,
+body.font-serif h4 {
+  font-family: 'Lora', Georgia, serif;
+}
+
+/* ============================================================
+   THEME SWITCHER — floating panel
+   ============================================================ */
+
+#theme-panel {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+#theme-panel-toggle {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  border: none;
+  background-color: #2C2C2A;
+  color: #D0CEC8;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+}
+#theme-panel-toggle:hover {
+  background-color: #444440;
+}
+
+#theme-panel-options {
+  background: #fff;
+  border: 1px solid #E0DDD8;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  display: none;
+  flex-direction: column;
+  gap: 0.9rem;
+  min-width: 160px;
+}
+#theme-panel-options.open {
+  display: flex;
+}
+
+.theme-panel-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.theme-panel-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #888;
+}
+
+.theme-swatches {
+  display: flex;
+  gap: 0.45rem;
+}
+
+.theme-swatch {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s;
+}
+.theme-swatch:hover {
+  transform: scale(1.15);
+}
+.theme-swatch.active {
+  border-color: #888;
+}
+.theme-swatch[data-theme="default"] { background: linear-gradient(135deg, #fff 50%, #B8860B 50%); }
+.theme-swatch[data-theme="terra"]   { background: linear-gradient(135deg, #F5EDE0 50%, #C05A2A 50%); }
+.theme-swatch[data-theme="dark"]    { background: linear-gradient(135deg, #1C1C1C 50%, #D4A450 50%); }
+
+.font-options {
+  display: flex;
+  gap: 0.45rem;
+}
+
+.font-btn {
+  padding: 0.2rem 0.6rem;
+  border: 1.5px solid #D0CEC8;
+  border-radius: 4px;
+  background: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: #555;
+  transition: border-color 0.15s, color 0.15s;
+  line-height: 1.4;
+}
+.font-btn:hover {
+  border-color: #888;
+  color: #1A1A1A;
+}
+.font-btn.active {
+  border-color: #B8860B;
+  color: #B8860B;
+  font-weight: 600;
+}
+.font-btn[data-font="serif"] {
+  font-family: 'Lora', Georgia, serif;
+}
+
+body.theme-dark #theme-panel-options {
+  background: #2A2A2A;
+  border-color: #3A3A3A;
+  color: #DEDAD4;
+}
+body.theme-dark .theme-panel-label {
+  color: #6A6660;
+}
+body.theme-dark .font-btn {
+  color: #9A9690;
+  border-color: #3A3A3A;
+}
+body.theme-dark .font-btn:hover {
+  color: #DEDAD4;
+  border-color: #666;
+}
+body.theme-dark .font-btn.active {
+  border-color: #D4A450;
+  color: #D4A450;
+}
+body.theme-dark #theme-panel-toggle {
+  background-color: #111;
+}
+
+body.theme-terra #theme-panel-options {
+  background: #F0E4D0;
+  border-color: #D9C4A8;
+}
+body.theme-terra .font-btn.active {
+  border-color: #C05A2A;
+  color: #C05A2A;
+}
+
+/* ============================================================
    EXEMPLO BOX
    Gold/amber left border, very light warm background,
    dark brown text for full contrast
@@ -213,5 +642,283 @@ p {
   margin: 0;
 }
 
+/* ============================================================
+   LANDING PAGE
+   ============================================================ */
 
+.landing-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.landing-cover {
+  width: 42%;
+  float: right;
+  margin: 0 0 1.5rem 2.5rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.13);
+}
+
+.landing-structure-section {
+  background-color: #F7F6F2;
+}
+
+.landing-structure-section h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #4A4A4A;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.landing-part {
+  margin-bottom: 2.5rem;
+}
+
+.landing-part h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #7A5500;
+  border-bottom: 2px solid #B8860B;
+  padding-bottom: 0.45rem;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+
+.chapter-item {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid #E8E6DF;
+}
+
+.chapter-item:last-child {
+  border-bottom: none;
+}
+
+.chapter-item p {
+  font-size: 0.88rem;
+  color: #5A5A5A;
+  margin: 0.35rem 0 0;
+  line-height: 1.65;
+}
+
+.chapter-item strong a,
+.chapter-item a {
+  color: #1A1A1A;
+  text-decoration: none;
+  font-size: 0.97rem;
+}
+
+.chapter-item strong a:hover,
+.chapter-item a:hover {
+  color: #B8860B;
+}
+
+.chapter-soon p {
+  color: #888;
+}
+
+.badge-soon {
+  display: inline-block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background-color: #E8E6DF;
+  color: #888;
+  padding: 0.1rem 0.45rem;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+  font-weight: 500;
+}
+
+/* ============================================================
+   SIDEBAR — "Índice" title (left chapter nav)
+   ============================================================ */
+
+#quarto-sidebar .sidebar-header {
+  display: none;
+}
+
+.sidebar-menu-container::before {
+  content: "Índice";
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #4A4A4A;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+/* ============================================================
+   SIDEBAR — hide landing page entry
+   ============================================================ */
+
+.sidebar-item:has(a[href="./index.html"]),
+.sidebar-item:has(a[href="index.html"]) {
+  display: none;
+}
+
+/* ============================================================
+   SIDEBAR — chapter number dot
+   ============================================================ */
+
+.chapter-number::after {
+  content: ".";
+}
+
+
+/* ============================================================
+   SITE FOOTER
+   ============================================================ */
+
+.site-footer {
+  background-color: #2C2C2A;
+  color: #D0CEC8;
+  padding: 2.5rem 4rem;
+  margin-top: 3rem;
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
+.site-footer-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.site-footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.site-footer-book strong {
+  color: #E8E6DF;
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+
+.site-footer-nav {
+  text-align: center;
+  align-items: center;
+}
+
+.site-footer-contact {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.site-footer-contact strong {
+  color: #E8E6DF;
+  margin-bottom: 0.1rem;
+}
+
+.footer-link {
+  color: #D0CEC8 !important;
+  text-decoration: none !important;
+}
+
+.footer-link:hover {
+  color: #B8860B !important;
+}
+
+@media (max-width: 680px) {
+  .site-footer {
+    padding: 2rem 1.5rem;
+  }
+
+  .site-footer-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .site-footer-nav,
+  .site-footer-contact {
+    text-align: left;
+    align-items: flex-start;
+  }
+}
+
+/* ============================================================
+   LANDING CTA BUTTONS
+   ============================================================ */
+
+.landing-cta {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2.2rem;
+  flex-wrap: wrap;
+}
+
+.cta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1.1rem;
+  border: 1.5px solid #B8860B;
+  border-radius: 5px;
+  color: #B8860B !important;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.cta-link:hover {
+  background-color: #B8860B;
+  color: #FDF8EC !important;
+}
+
+/* ============================================================
+   FOOTER LINKS
+   ============================================================ */
+
+.footer-link {
+  color: #D0CEC8 !important;
+  text-decoration: none !important;
+  font-size: 0.88rem;
+}
+
+.footer-link:hover {
+  color: #B8860B !important;
+}
+
+.landing-title-block {
+  margin-bottom: 1.8rem;
+}
+
+.landing-title-block h1 {
+  font-size: 2.1rem;
+  line-height: 1.2;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.landing-subtitle {
+  display: block;
+  font-size: 1rem;
+  color: #4A4A4A;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.landing-author {
+  display: block;
+  font-size: 0.9rem;
+  color: #7A7A7A;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+@media (max-width: 680px) {
+  .landing-cover {
+    width: 55%;
+  }
+}
 

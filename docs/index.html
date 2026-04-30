@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,17 +30,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./00-prologo.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-364982630eef5352dd1537128a8ed5cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-db39bdc3254459fa84b6505a03334ab5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,13 +73,15 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent quarto-light">
+<body class="nav-sidebar nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Hipótese, Contraste, Generalização e Contra-Exemplo</span>
     </a>
@@ -90,6 +92,16 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./00-prologo.html"> <i class="bi bi-book" role="img">
+</i> 
+<span class="menu-text">Ler online</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">|</span>
+    </span>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./HCGCE.pdf"> 
 <span class="menu-text">Baixar PDF</span></a>
@@ -109,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Ler PDF online</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./pdf-viewer.html"> <i class="bi bi-book" role="img">
+    <a class="nav-link" href="./pdf-viewer.html"> <i class="bi bi-display" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -129,66 +141,12 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introdução</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Introdução</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./00-prologo.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Prólogo</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">—</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar seção">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./01-capitulo1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Por que precisamos da ciência — e deste livro?</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./02-capitulo2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Que espécie de bicho é a ciência e como separá-la do joio da pseudociência?</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -216,25 +174,104 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introdução" class="level1 unnumbered">
-<h1 class="unnumbered">Introdução</h1>
-<div class="epigraph">
-<p>“Confesso francamente: foi a advertência de David Hume que, há muitos anos, interrompeu o meu sono dogmático e deu às minhas investigações, no campo da filosofia especulativa, uma orientação inteiramente diversa.”</p>
-<p>— Kant (1998, p.&nbsp;17), <em>Prolegômenos a toda a metafísica futura</em></p>
-</div>
-<p><img src="cover.png" alt="Capa do livro" style="width: 45%; float: right; margin: 0 0 1.5rem 2rem; border-radius: 4px;"></p>
-<p>Este livro é sobre uma ideia simples com consequências profundas: a Filosofia do Conhecimento e a Estatística — disciplinas habitualmente ensinadas em salas separadas, por pessoas que raramente conversam entre si — estão a falar, no fundo, da mesma coisa.</p>
-<p>Ambas existem porque somos criaturas imperfeitas a tentar compreender um mundo complexo. Cometemos erros sistemáticos de julgamento, procuramos confirmação em vez de refutação, e avaliamos evidências de forma enviesada — não por falta de inteligência, mas por excesso de humanidade. A Ciência surgiu, em grande medida, como resposta institucional a essas limitações cognitivas. E tanto a Filosofia da Ciência como os métodos estatísticos de teste de hipóteses são tentativas de formalizar essa resposta.</p>
-<p>O livro percorre os grandes momentos dessa história: o cepticismo e o dogmatismo, o empirismo e o racionalismo, o Positivismo Lógico do Círculo de Viena, o falsificacionismo de Popper, os paradigmas de Kuhn, os programas de investigação de Lakatos, e a anarquia epistemológica de Feyerabend. A partir daí, a discussão move-se para o interior da prática científica: o que são explicações científicas, como funcionam as Redes Bayesianas, e como a Teoria de Deteção de Sinais e as teorias de teste de Fisher e Neyman-Pearson traduzem, em linguagem matemática, os mesmos problemas que os filósofos debatem há séculos.</p>
-<p>O livro destina-se a estudantes de pós-graduação — sobretudo em Psicologia, mas não exclusivamente — e a qualquer leitor curioso sobre a natureza do conhecimento científico. Não exige formação prévia em Filosofia nem em Estatística avançada. Exige apenas disposição para questionar o que julgamos já saber.</p>
-<div style="clear: both;">
-
-</div>
-
-
+<style>#title-block-header { display: none; }</style>
+<div class="landing-wrapper">
+<div class="landing-intro-section">
+<div class="landing-inner">
+<p><a href="00-prologo.html"><img src="cover.png" alt="Capa do livro" class="landing-cover"></a></p>
+<section id="hipótese-contraste-generalização-e-contra-exemplo" class="level1 unnumbered landing-title-block">
+<h1 class="unnumbered">Hipótese, Contraste, Generalização e Contra-Exemplo</h1>
+<p><span class="landing-subtitle">Filosofia da Ciência e Métodos de Inferência</span></p>
+<p><span class="landing-author">Leonel Garcia-Marques</span></p>
 </section>
+<p>Este site apresenta um livro em construção. Ao longo dos próximos meses, novos capítulos serão publicados regularmente — com periodicidade mensal ou bimensal — permitindo que a obra cresça gradualmente diante dos leitores. Cada nova secção acrescentará mais peças a uma reflexão sobre ciência, racionalidade e conhecimento.</p>
+<p>O tema central deste livro situa-se na intersecção entre Filosofia do Conhecimento, Epistemologia e Métodos da Ciência. Apesar de frequentemente tratadas como domínios separados — ou até como áreas de importância desigual — a Filosofia e as ferramentas matemáticas da ciência (como a teoria das probabilidades ou a estatística) partilham uma função essencial: ajudar-nos a formular, testar e criticar argumentos sobre o mundo.</p>
+<p>Na prática científica contemporânea, a matemática e a estatística são frequentemente vistas como garantias de rigor e objetividade. A filosofia, pelo contrário, é muitas vezes considerada apenas uma curiosidade histórica ou uma disciplina marginal ao trabalho científico quotidiano. Contudo, esta oposição é enganadora. Ao longo da história da ciência, muitas das questões mais fundamentais — o que é conhecimento, como testamos teorias, como distinguimos ciência de pseudociência — pertencem precisamente ao domínio da reflexão filosófica.</p>
+<p>Este livro parte da ideia de que as ferramentas formais e a reflexão conceptual decorrem de princípios comuns. Ao explorar conceitos como teste de hipóteses, explicação científica, critérios de demarcação entre ciência e pseudociência e diferentes tradições da filosofia da ciência, o livro procura mostrar que a investigação científica e a reflexão epistemológica são, na realidade, profundamente interdependentes.</p>
+<p>Ao longo dos capítulos, o leitor encontrará uma viagem por temas clássicos e contemporâneos da epistemologia, incluindo debates sobre empirismo e racionalismo, o falsificacionismo de Karl Popper, os paradigmas de Thomas Kuhn, os programas de investigação de Lakatos, a crítica de Feyerabend e discussões recentes sobre pseudociência e atitude científica. Paralelamente, serão exploradas ligações com instrumentos fundamentais da investigação empírica, como a teoria estatística de testes, a inferência probabilística e a teoria da deteção de sinais.</p>
+<p>Embora muitos exemplos provenham da Psicologia e das ciências do comportamento, os problemas discutidos são universais: como sabemos aquilo que pensamos saber? e como podemos distinguir explicações confiáveis de meras ilusões de conhecimento?</p>
+<p>Este projeto convida o leitor a acompanhar essa exploração capítulo a capítulo. Tal como acontece na própria ciência, o percurso constrói-se progressivamente: com hipóteses, argumentos, críticas e contra-exemplos.</p>
+<p><em>Esperamos que esta leitura não apenas satisfaça a curiosidade do leitor, mas também a amplie.</em></p>
+<div style="clear:both;">
 
-</main> <!-- /main -->
+</div>
+<div class="landing-cta">
+  <a href="00-prologo.html" class="cta-link"><i class="bi bi-book"></i> Ler online</a>
+  <a href="HCGCE.pdf" class="cta-link"><i class="bi bi-filetype-pdf"></i> Baixar PDF</a>
+  <a href="pdf-viewer.html" class="cta-link"><i class="bi bi-display"></i> Ler PDF online</a>
+</div>
+</div>
+</div>
+<div class="landing-structure-section">
+<section id="estrutura-do-livro" class="level2 landing-inner">
+<h2 data-anchor-id="estrutura-do-livro">Estrutura do Livro</h2>
+<section id="fundamentos-epistemológicos" class="level3 landing-part">
+<h3 data-anchor-id="fundamentos-epistemológicos">Fundamentos Epistemológicos</h3>
+<div class="chapter-item">
+<p><strong><a href="01-capitulo1.html">Capítulo 1 – Racionalidade, erros e pensamento científico</a></strong></p>
+<p>Introdução ao problema da racionalidade humana e aos erros cognitivos que tornam necessário o método científico.</p>
+</div>
+<div class="chapter-item">
+<p><strong><a href="02-capitulo2.html">Capítulo 2 – O Conceito de Conhecimento, a Ciência e a Pseudociência</a></strong></p>
+<p>Neste capítulo será analisado o conceito clássico de conhecimento como crença verdadeira justificada, bem como os problemas que esta definição enfrenta. Serão discutidos os famosos casos de Gettier, as respostas propostas na epistemologia contemporânea e as diferentes conceções de conhecimento na tradição filosófica. Será ainda apresentada uma discussão histórica e filosófica sobre como distinguir ciência de pseudociência.</p>
+</div>
+<div class="chapter-item chapter-soon">
+<p><strong>Capítulo 3 – A Explicação em Ciência</strong> <span class="badge-soon">em breve</span></p>
+<p>Exploração das principais teorias filosóficas da explicação científica, desde o modelo dedutivo-nomológico até às abordagens causais e mecanísticas. O capítulo discutirá também a relação entre explicação, previsão e compreensão científica.</p>
+</div>
+</section>
+<section id="ferramentas-da-inferência-científica" class="level3 landing-part">
+<h3 data-anchor-id="ferramentas-da-inferência-científica">Ferramentas da Inferência Científica</h3>
+<div class="chapter-item chapter-soon">
+<p><strong>Capítulo 4 – Causas e Correlações e as Redes Bayesianas</strong> <span class="badge-soon">em breve</span></p>
+<p>Introdução ao uso de modelos probabilísticos e redes bayesianas como ferramentas para representar relações causais e inferências explicativas. Será discutido como estes modelos permitem formalizar hipóteses científicas e avaliar evidência empírica.</p>
+</div>
+<div class="chapter-item chapter-soon">
+<p><strong>Capítulo 5 – A Teoria de Deteção de Sinais</strong> <span class="badge-soon">em breve</span></p>
+<p>Apresentação da Teoria de Deteção de Sinais, uma estrutura fundamental para compreender decisões sob incerteza. O capítulo explorará conceitos como sensibilidade, critério de decisão, falsos alarmes e omissões, e a sua relevância para a investigação científica e para a psicologia.</p>
+</div>
+<div class="chapter-item chapter-soon">
+<p><strong>Capítulo 6 – Título a definir</strong> <span class="badge-soon">em breve</span></p>
+<p><em>(Capítulo em preparação — título e descrição a confirmar com o autor.)</em></p>
+</div>
+<div class="chapter-item chapter-soon">
+<p><strong>Capítulo 7 – As Teorias de Teste de Fischer, de Neyman-Pearson e Bayesiana</strong> <span class="badge-soon">em breve</span></p>
+<p>Comparação entre três grandes tradições da inferência estatística: o teste de significância de Fisher, a teoria de decisão de Neyman-Pearson e a inferência bayesiana. Serão discutidas as diferenças conceptuais entre estes modelos e as suas implicações para a prática científica.</p>
+</div>
+<div class="chapter-item chapter-soon">
+<p><strong>Capítulo 8 – Hipótese, Contraste, Generalização e Contra-Exemplo</strong> <span class="badge-soon">em breve</span></p>
+<p>Síntese dos princípios apresentados ao longo do livro, mostrando como o progresso científico emerge de um processo contínuo de formulação de hipóteses, contraste empírico, generalização e refutação.</p>
+</div>
+<div class="chapter-item chapter-soon">
+<p><strong>Capítulo 9 – Reflexão Final em Defesa da Racionalidade e Conjeturas sobre o seu Futuro</strong> <span class="badge-soon">em breve</span></p>
+<p>Defesa do primado da razão e da evidência como insubstituíveis para o pensamento crítico. As dificuldades desejáveis do pensamento crítico e o seu (e do nosso) futuro.</p>
+</div>
+</section>
+</section>
+</div>
+</div>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="site-footer-col site-footer-book">
+      <strong>Hipótese, Contraste, Generalização e Contra-Exemplo</strong>
+      <span>Filosofia da Ciência e Métodos de Inferência</span>
+      <span>Leonel Garcia-Marques</span>
+    </div>
+    <div class="site-footer-col site-footer-nav">
+      <a href="00-prologo.html" class="footer-link"><i class="bi bi-book"></i> Ler online</a>
+      <a href="HCGCE.pdf" class="footer-link"><i class="bi bi-filetype-pdf"></i> Baixar PDF</a>
+      <a href="pdf-viewer.html" class="footer-link"><i class="bi bi-display"></i> Ler PDF online</a>
+    </div>
+    <div class="site-footer-col site-footer-contact">
+      <strong>Sugestões e contacto</strong>
+      <a href="mailto:email@email.com" class="footer-link"><i class="bi bi-envelope-at"></i> Email</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -286,13 +323,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -634,18 +672,92 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./00-prologo.html" class="pagination-link" aria-label="Prólogo">
-        <span class="nav-page-text">Prólogo</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
 
+
+<div id="theme-panel">
+  <div id="theme-panel-options" role="dialog" aria-label="Opções de aparência">
+    <div class="theme-panel-section">
+      <span class="theme-panel-label">Cores</span>
+      <div class="theme-swatches">
+        <button class="theme-swatch active" data-theme="default" title="Predefinido" aria-label="Tema predefinido"></button>
+        <button class="theme-swatch" data-theme="terra" title="Terra" aria-label="Tema terra-cota"></button>
+        <button class="theme-swatch" data-theme="dark" title="Escuro" aria-label="Tema escuro"></button>
+      </div>
+    </div>
+    <div class="theme-panel-section">
+      <span class="theme-panel-label">Tipo de letra</span>
+      <div class="font-options">
+        <button class="font-btn active" data-font="sans" title="Sans-serif">Aa</button>
+        <button class="font-btn" data-font="serif" title="Serifado">Aa</button>
+      </div>
+    </div>
+  </div>
+  <button id="theme-panel-toggle" title="Aparência" aria-label="Abrir opções de aparência" aria-expanded="false">
+    <i class="bi bi-palette"></i>
+  </button>
+</div>
+
+<script>
+(function () {
+  var THEME_KEY = 'hcgce-theme';
+  var FONT_KEY  = 'hcgce-font';
+
+  var panel   = document.getElementById('theme-panel-options');
+  var toggle  = document.getElementById('theme-panel-toggle');
+  var swatches = document.querySelectorAll('.theme-swatch');
+  var fontBtns = document.querySelectorAll('.font-btn');
+
+  function applyTheme(theme) {
+    document.body.classList.remove('theme-terra', 'theme-dark');
+    if (theme !== 'default') document.body.classList.add('theme-' + theme);
+    swatches.forEach(function (s) {
+      s.classList.toggle('active', s.dataset.theme === theme);
+    });
+    localStorage.setItem(THEME_KEY, theme);
+  }
+
+  function applyFont(font) {
+    document.body.classList.toggle('font-serif', font === 'serif');
+    fontBtns.forEach(function (b) {
+      b.classList.toggle('active', b.dataset.font === font);
+    });
+    localStorage.setItem(FONT_KEY, font);
+  }
+
+  function openPanel() {
+    panel.classList.add('open');
+    toggle.setAttribute('aria-expanded', 'true');
+  }
+
+  function closePanel() {
+    panel.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
+
+  toggle.addEventListener('click', function (e) {
+    e.stopPropagation();
+    panel.classList.contains('open') ? closePanel() : openPanel();
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!document.getElementById('theme-panel').contains(e.target)) closePanel();
+  });
+
+  swatches.forEach(function (s) {
+    s.addEventListener('click', function () { applyTheme(s.dataset.theme); });
+  });
+
+  fontBtns.forEach(function (b) {
+    b.addEventListener('click', function () { applyFont(b.dataset.font); });
+  });
+
+  // Restore saved preferences
+  applyTheme(localStorage.getItem(THEME_KEY) || 'default');
+  applyFont(localStorage.getItem(FONT_KEY)  || 'sans');
+})();
+</script>
 
 </body></html>

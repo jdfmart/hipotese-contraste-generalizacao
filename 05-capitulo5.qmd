@@ -1,0 +1,5 @@
+# (Em breve) A Teoria de Deteção de Sinais
+
+::: {.em-breve-page}
+*Este capítulo estará disponível brevemente.*
+:::

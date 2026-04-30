@@ -1,0 +1,5 @@
+# (Em breve) As Teorias de Teste de Fischer, de Neyman-Pearson e Bayesiana
+
+::: {.em-breve-page}
+*Este capítulo estará disponível brevemente.*
+:::

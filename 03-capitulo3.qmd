@@ -1,0 +1,5 @@
+# (Em breve) A Explicação em Ciência
+
+::: {.em-breve-page}
+*Este capítulo estará disponível brevemente.*
+:::

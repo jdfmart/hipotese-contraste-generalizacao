@@ -10,6 +10,10 @@ book:
   navbar:
     pinned: true
     right:
+      - text: "Ler online"
+        icon: book
+        href: 00-prologo.html
+      - text: "|"
       - text: "Baixar PDF"
         href: HCGCE.pdf
       - icon: filetype-pdf
@@ -17,7 +21,7 @@ book:
       - text: "|"
       - text: "Ler PDF online"
         href: pdf-viewer.html
-      - icon: book
+      - icon: display
         href: pdf-viewer.html
       - text: "|"
       - icon: envelope-at
@@ -31,6 +35,13 @@ book:
       chapters:
         - 01-capitulo1.qmd
         - 02-capitulo2.qmd
+        - 03-capitulo3.qmd
+        - 04-capitulo4.qmd
+        - 05-capitulo5.qmd
+        - 06-capitulo6.qmd
+        - 07-capitulo7.qmd
+        - 08-capitulo8.qmd
+        - 09-capitulo9.qmd
 
 bibliography: references.bib
 
@@ -39,6 +50,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-    toc-depth: 3
+    toc-depth: 4
     number-sections: true
     lang: pt
+    include-after-body: _theme-switcher.html

@@ -1,0 +1,5 @@
+# (Em breve) Hipótese, Contraste, Generalização e Contra-Exemplo
+
+::: {.em-breve-page}
+*Este capítulo estará disponível brevemente.*
+:::

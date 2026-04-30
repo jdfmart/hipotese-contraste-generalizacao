@@ -1,24 +1,149 @@
 ---
-number: false
+page-layout: custom
 toc: false
+number-sections: false
+number: false
 ---
 
-# Introdução {.unnumbered}
+```{=html}
+<style>#title-block-header { display: none; }</style>
+```
 
-::: {.epigraph}
-"Confesso francamente: foi a advertência de David Hume que, há muitos anos, interrompeu o meu sono dogmático e deu às minhas investigações, no campo da filosofia especulativa, uma orientação inteiramente diversa."
+::: {.landing-wrapper}
 
-— Kant (1998, p. 17), *Prolegômenos a toda a metafísica futura*
+::: {.landing-intro-section}
+::: {.landing-inner}
+
+<a href="00-prologo.html"><img src="cover.png" alt="Capa do livro" class="landing-cover"/></a>
+
+::: {.landing-title-block}
+# Hipótese, Contraste, Generalização e Contra-Exemplo {.unnumbered}
+
+[Filosofia da Ciência e Métodos de Inferência]{.landing-subtitle}
+
+[Leonel Garcia-Marques]{.landing-author}
 :::
 
-<img src="cover.png" alt="Capa do livro" style="width: 45%; float: right; margin: 0 0 1.5rem 2rem; border-radius: 4px;"/>
+Este site apresenta um livro em construção. Ao longo dos próximos meses, novos capítulos serão publicados regularmente — com periodicidade mensal ou bimensal — permitindo que a obra cresça gradualmente diante dos leitores. Cada nova secção acrescentará mais peças a uma reflexão sobre ciência, racionalidade e conhecimento.
 
-Este livro é sobre uma ideia simples com consequências profundas: a Filosofia do Conhecimento e a Estatística — disciplinas habitualmente ensinadas em salas separadas, por pessoas que raramente conversam entre si — estão a falar, no fundo, da mesma coisa.
+O tema central deste livro situa-se na intersecção entre Filosofia do Conhecimento, Epistemologia e Métodos da Ciência. Apesar de frequentemente tratadas como domínios separados — ou até como áreas de importância desigual — a Filosofia e as ferramentas matemáticas da ciência (como a teoria das probabilidades ou a estatística) partilham uma função essencial: ajudar-nos a formular, testar e criticar argumentos sobre o mundo.
 
-Ambas existem porque somos criaturas imperfeitas a tentar compreender um mundo complexo. Cometemos erros sistemáticos de julgamento, procuramos confirmação em vez de refutação, e avaliamos evidências de forma enviesada — não por falta de inteligência, mas por excesso de humanidade. A Ciência surgiu, em grande medida, como resposta institucional a essas limitações cognitivas. E tanto a Filosofia da Ciência como os métodos estatísticos de teste de hipóteses são tentativas de formalizar essa resposta.
+Na prática científica contemporânea, a matemática e a estatística são frequentemente vistas como garantias de rigor e objetividade. A filosofia, pelo contrário, é muitas vezes considerada apenas uma curiosidade histórica ou uma disciplina marginal ao trabalho científico quotidiano. Contudo, esta oposição é enganadora. Ao longo da história da ciência, muitas das questões mais fundamentais — o que é conhecimento, como testamos teorias, como distinguimos ciência de pseudociência — pertencem precisamente ao domínio da reflexão filosófica.
 
-O livro percorre os grandes momentos dessa história: o cepticismo e o dogmatismo, o empirismo e o racionalismo, o Positivismo Lógico do Círculo de Viena, o falsificacionismo de Popper, os paradigmas de Kuhn, os programas de investigação de Lakatos, e a anarquia epistemológica de Feyerabend. A partir daí, a discussão move-se para o interior da prática científica: o que são explicações científicas, como funcionam as Redes Bayesianas, e como a Teoria de Deteção de Sinais e as teorias de teste de Fisher e Neyman-Pearson traduzem, em linguagem matemática, os mesmos problemas que os filósofos debatem há séculos.
+Este livro parte da ideia de que as ferramentas formais e a reflexão conceptual decorrem de princípios comuns. Ao explorar conceitos como teste de hipóteses, explicação científica, critérios de demarcação entre ciência e pseudociência e diferentes tradições da filosofia da ciência, o livro procura mostrar que a investigação científica e a reflexão epistemológica são, na realidade, profundamente interdependentes.
 
-O livro destina-se a estudantes de pós-graduação — sobretudo em Psicologia, mas não exclusivamente — e a qualquer leitor curioso sobre a natureza do conhecimento científico. Não exige formação prévia em Filosofia nem em Estatística avançada. Exige apenas disposição para questionar o que julgamos já saber.
+Ao longo dos capítulos, o leitor encontrará uma viagem por temas clássicos e contemporâneos da epistemologia, incluindo debates sobre empirismo e racionalismo, o falsificacionismo de Karl Popper, os paradigmas de Thomas Kuhn, os programas de investigação de Lakatos, a crítica de Feyerabend e discussões recentes sobre pseudociência e atitude científica. Paralelamente, serão exploradas ligações com instrumentos fundamentais da investigação empírica, como a teoria estatística de testes, a inferência probabilística e a teoria da deteção de sinais.
 
-<div style="clear: both;"></div>
+Embora muitos exemplos provenham da Psicologia e das ciências do comportamento, os problemas discutidos são universais: como sabemos aquilo que pensamos saber? e como podemos distinguir explicações confiáveis de meras ilusões de conhecimento?
+
+Este projeto convida o leitor a acompanhar essa exploração capítulo a capítulo. Tal como acontece na própria ciência, o percurso constrói-se progressivamente: com hipóteses, argumentos, críticas e contra-exemplos.
+
+*Esperamos que esta leitura não apenas satisfaça a curiosidade do leitor, mas também a amplie.*
+
+<div style="clear:both;"></div>
+
+```{=html}
+<div class="landing-cta">
+  <a href="00-prologo.html" class="cta-link"><i class="bi bi-book"></i> Ler online</a>
+  <a href="HCGCE.pdf" class="cta-link"><i class="bi bi-filetype-pdf"></i> Baixar PDF</a>
+  <a href="pdf-viewer.html" class="cta-link"><i class="bi bi-display"></i> Ler PDF online</a>
+</div>
+```
+
+:::
+:::
+
+::: {.landing-structure-section}
+::: {.landing-inner}
+
+## Estrutura do Livro
+
+::: {.landing-part}
+### Fundamentos Epistemológicos
+
+::: {.chapter-item}
+**[Capítulo 1 – Racionalidade, erros e pensamento científico](01-capitulo1.html)**
+
+Introdução ao problema da racionalidade humana e aos erros cognitivos que tornam necessário o método científico.
+:::
+
+::: {.chapter-item}
+**[Capítulo 2 – O Conceito de Conhecimento, a Ciência e a Pseudociência](02-capitulo2.html)**
+
+Neste capítulo será analisado o conceito clássico de conhecimento como crença verdadeira justificada, bem como os problemas que esta definição enfrenta. Serão discutidos os famosos casos de Gettier, as respostas propostas na epistemologia contemporânea e as diferentes conceções de conhecimento na tradição filosófica. Será ainda apresentada uma discussão histórica e filosófica sobre como distinguir ciência de pseudociência.
+:::
+
+::: {.chapter-item .chapter-soon}
+**Capítulo 3 – A Explicação em Ciência** [em breve]{.badge-soon}
+
+Exploração das principais teorias filosóficas da explicação científica, desde o modelo dedutivo-nomológico até às abordagens causais e mecanísticas. O capítulo discutirá também a relação entre explicação, previsão e compreensão científica.
+:::
+
+:::
+
+::: {.landing-part}
+### Ferramentas da Inferência Científica
+
+::: {.chapter-item .chapter-soon}
+**Capítulo 4 – Causas e Correlações e as Redes Bayesianas** [em breve]{.badge-soon}
+
+Introdução ao uso de modelos probabilísticos e redes bayesianas como ferramentas para representar relações causais e inferências explicativas. Será discutido como estes modelos permitem formalizar hipóteses científicas e avaliar evidência empírica.
+:::
+
+::: {.chapter-item .chapter-soon}
+**Capítulo 5 – A Teoria de Deteção de Sinais** [em breve]{.badge-soon}
+
+Apresentação da Teoria de Deteção de Sinais, uma estrutura fundamental para compreender decisões sob incerteza. O capítulo explorará conceitos como sensibilidade, critério de decisão, falsos alarmes e omissões, e a sua relevância para a investigação científica e para a psicologia.
+:::
+
+::: {.chapter-item .chapter-soon}
+**Capítulo 6 – Título a definir** [em breve]{.badge-soon}
+
+*(Capítulo em preparação — título e descrição a confirmar com o autor.)*
+:::
+
+::: {.chapter-item .chapter-soon}
+**Capítulo 7 – As Teorias de Teste de Fischer, de Neyman-Pearson e Bayesiana** [em breve]{.badge-soon}
+
+Comparação entre três grandes tradições da inferência estatística: o teste de significância de Fisher, a teoria de decisão de Neyman-Pearson e a inferência bayesiana. Serão discutidas as diferenças conceptuais entre estes modelos e as suas implicações para a prática científica.
+:::
+
+::: {.chapter-item .chapter-soon}
+**Capítulo 8 – Hipótese, Contraste, Generalização e Contra-Exemplo** [em breve]{.badge-soon}
+
+Síntese dos princípios apresentados ao longo do livro, mostrando como o progresso científico emerge de um processo contínuo de formulação de hipóteses, contraste empírico, generalização e refutação.
+:::
+
+::: {.chapter-item .chapter-soon}
+**Capítulo 9 – Reflexão Final em Defesa da Racionalidade e Conjeturas sobre o seu Futuro** [em breve]{.badge-soon}
+
+Defesa do primado da razão e da evidência como insubstituíveis para o pensamento crítico. As dificuldades desejáveis do pensamento crítico e o seu (e do nosso) futuro.
+:::
+
+:::
+
+:::
+:::
+
+:::
+
+```{=html}
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="site-footer-col site-footer-book">
+      <strong>Hipótese, Contraste, Generalização e Contra-Exemplo</strong>
+      <span>Filosofia da Ciência e Métodos de Inferência</span>
+      <span>Leonel Garcia-Marques</span>
+    </div>
+    <div class="site-footer-col site-footer-nav">
+      <a href="00-prologo.html" class="footer-link"><i class="bi bi-book"></i> Ler online</a>
+      <a href="HCGCE.pdf" class="footer-link"><i class="bi bi-filetype-pdf"></i> Baixar PDF</a>
+      <a href="pdf-viewer.html" class="footer-link"><i class="bi bi-display"></i> Ler PDF online</a>
+    </div>
+    <div class="site-footer-col site-footer-contact">
+      <strong>Sugestões e contacto</strong>
+      <a href="mailto:email@email.com" class="footer-link"><i class="bi bi-envelope-at"></i> Email</a>
+    </div>
+  </div>
+</footer>
+```
