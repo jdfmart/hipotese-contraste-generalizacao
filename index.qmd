@@ -45,8 +45,8 @@ Este projeto convida o leitor a acompanhar essa exploração capítulo a capítu
 ```{=html}
 <div class="landing-cta">
   <a href="00-prologo.html" class="cta-link"><i class="bi bi-book"></i> Ler online</a>
-  <a href="HCGCE.pdf" class="cta-link"><i class="bi bi-filetype-pdf"></i> Baixar PDF</a>
-  <a href="pdf-viewer.html" class="cta-link"><i class="bi bi-display"></i> Ler PDF online</a>
+  <a href="HCGCE.pdf" class="cta-link" target="_blank" rel="noopener"><i class="bi bi-filetype-pdf"></i> Baixar PDF</a>
+  <a href="pdf-viewer.html" class="cta-link" target="_blank" rel="noopener"><i class="bi bi-display"></i> Ler PDF online</a>
 </div>
 ```
 

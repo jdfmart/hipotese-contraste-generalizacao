@@ -932,6 +932,15 @@ Karl R. Popper (O Realismo e o Objetivo da Ciência)
   // Restore saved preferences
   applyTheme(localStorage.getItem(THEME_KEY) || 'default');
   applyFont(localStorage.getItem(FONT_KEY)  || 'sans');
+
+  // Open PDF links in a new tab
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    var href = a.getAttribute('href');
+    if (href && (href.match(/\.pdf$/i) || href.includes('pdf-viewer'))) {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener');
+    }
+  });
 })();
 </script>
 

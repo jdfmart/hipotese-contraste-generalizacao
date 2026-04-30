@@ -197,8 +197,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="landing-cta">
   <a href="00-prologo.html" class="cta-link"><i class="bi bi-book"></i> Ler online</a>
-  <a href="HCGCE.pdf" class="cta-link"><i class="bi bi-filetype-pdf"></i> Baixar PDF</a>
-  <a href="pdf-viewer.html" class="cta-link"><i class="bi bi-display"></i> Ler PDF online</a>
+  <a href="HCGCE.pdf" class="cta-link" target="_blank" rel="noopener"><i class="bi bi-filetype-pdf"></i> Baixar PDF</a>
+  <a href="pdf-viewer.html" class="cta-link" target="_blank" rel="noopener"><i class="bi bi-display"></i> Ler PDF online</a>
 </div>
 </div>
 </div>
@@ -757,6 +757,15 @@ ul.task-list li input[type="checkbox"] {
   // Restore saved preferences
   applyTheme(localStorage.getItem(THEME_KEY) || 'default');
   applyFont(localStorage.getItem(FONT_KEY)  || 'sans');
+
+  // Open PDF links in a new tab
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    var href = a.getAttribute('href');
+    if (href && (href.match(/\.pdf$/i) || href.includes('pdf-viewer'))) {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener');
+    }
+  });
 })();
 </script>
 
