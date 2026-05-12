@@ -12,20 +12,17 @@ book:
   navbar:
     pinned: true
     right:
-      - text: "Ler online"
-        icon: book
-        href: 00-prologo.html
-      - text: "|"
-      - text: "Baixar PDF"
-        href: HCGCE.pdf
-      - icon: filetype-pdf
-        href: HCGCE.pdf
-      - text: "|"
-      - text: "Ler PDF online"
-        href: pdf-viewer.html
-      - icon: display
-        href: pdf-viewer.html
-      - text: "|"
+      - text: "Livro"
+        menu:
+          - text: "Ler online"
+            icon: book
+            href: 00-prologo.html
+          - text: "Baixar PDF"
+            icon: filetype-pdf
+            href: HCGCE.pdf
+          - text: "Ler PDF online"
+            icon: display
+            href: pdf-viewer.html
       - icon: envelope-at
         href: mailto:email@email.com
   sidebar:
