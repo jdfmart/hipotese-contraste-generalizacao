@@ -11,8 +11,8 @@ book:
   language: pt
   navbar:
     pinned: true
-    right:
-      - text: "Livro"
+    left:
+      - text: "Ler livro"
         menu:
           - text: "Ler online"
             icon: book
@@ -23,6 +23,7 @@ book:
           - text: "Ler PDF online"
             icon: display
             href: pdf-viewer.html
+    right:
       - icon: envelope-at
         href: mailto:email@email.com
   sidebar:

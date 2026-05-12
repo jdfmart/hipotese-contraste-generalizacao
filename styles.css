@@ -924,3 +924,10 @@ p {
   }
 }
 
+/* Center the "Ler livro" dropdown in the navbar */
+.navbar-nav:not(.ms-auto) {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
