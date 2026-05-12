@@ -41,7 +41,6 @@ book:
         - 06-capitulo6.qmd
         - 07-capitulo7.qmd
         - 08-capitulo8.qmd
-        - 09-capitulo9.qmd
 
 bibliography: references.bib
 
@@ -49,6 +48,10 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    include-in-header:
+      text: |
+        <script data-goatcounter="https://lgmsite.goatcounter.com/count"
+                async src="//gc.zgo.at/count.js"></script>
     toc: true
     toc-depth: 4
     number-sections: true

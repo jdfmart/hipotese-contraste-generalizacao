@@ -97,25 +97,19 @@ Apresentação da Teoria de Deteção de Sinais, uma estrutura fundamental para 
 :::
 
 ::: {.chapter-item .chapter-soon}
-**Capítulo 6 – Título a definir** [em breve]{.badge-soon}
-
-*(Capítulo em preparação — título e descrição a confirmar com o autor.)*
-:::
-
-::: {.chapter-item .chapter-soon}
-**Capítulo 7 – As Teorias de Teste de Fischer, de Neyman-Pearson e Bayesiana** [em breve]{.badge-soon}
+**Capítulo 6 – As Teorias de Teste de Fischer, de Neyman-Pearson e Bayesiana** [em breve]{.badge-soon}
 
 Comparação entre três grandes tradições da inferência estatística: o teste de significância de Fisher, a teoria de decisão de Neyman-Pearson e a inferência bayesiana. Serão discutidas as diferenças conceptuais entre estes modelos e as suas implicações para a prática científica.
 :::
 
 ::: {.chapter-item .chapter-soon}
-**Capítulo 8 – Hipótese, Contraste, Generalização e Contra-Exemplo** [em breve]{.badge-soon}
+**Capítulo 7 – Hipótese, Contraste, Generalização e Contra-Exemplo** [em breve]{.badge-soon}
 
 Síntese dos princípios apresentados ao longo do livro, mostrando como o progresso científico emerge de um processo contínuo de formulação de hipóteses, contraste empírico, generalização e refutação.
 :::
 
 ::: {.chapter-item .chapter-soon}
-**Capítulo 9 – Reflexão Final em Defesa da Racionalidade e Conjeturas sobre o seu Futuro** [em breve]{.badge-soon}
+**Capítulo 8 – Reflexão Final em Defesa da Racionalidade e Conjeturas sobre o seu Futuro** [em breve]{.badge-soon}
 
 Defesa do primado da razão e da evidência como insubstituíveis para o pensamento crítico. As dificuldades desejáveis do pensamento crítico e o seu (e do nosso) futuro.
 :::

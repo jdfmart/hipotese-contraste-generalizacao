@@ -1,4 +1,4 @@
-# (Em breve) As Teorias de Teste de Fischer, de Neyman-Pearson e Bayesiana
+# (Em breve) Hipótese, Contraste, Generalização e Contra-Exemplo
 
 ::: {.em-breve-page}
 *Este capítulo estará disponível brevemente.*

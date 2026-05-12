@@ -68,6 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script data-goatcounter="https://lgmsite.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -216,25 +217,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./06-capitulo6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">(Em breve) Título a definir</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">(Em breve) As Teorias de Teste de Fischer, de Neyman-Pearson e Bayesiana</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./07-capitulo7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">(Em breve) As Teorias de Teste de Fischer, de Neyman-Pearson e Bayesiana</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">(Em breve) Hipótese, Contraste, Generalização e Contra-Exemplo</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./08-capitulo8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">(Em breve) Hipótese, Contraste, Generalização e Contra-Exemplo</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./09-capitulo9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">(Em breve) Reflexão Final em Defesa da Racionalidade e Conjeturas sobre o seu Futuro</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">(Em breve) Reflexão Final em Defesa da Racionalidade e Conjeturas sobre o seu Futuro</span></span></a>
   </div>
 </li>
       </ul>
@@ -290,6 +285,97 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<div id="theme-panel">
+  <div id="theme-panel-options" role="dialog" aria-label="Opções de aparência">
+    <div class="theme-panel-section">
+      <span class="theme-panel-label">Cores</span>
+      <div class="theme-swatches">
+        <button class="theme-swatch active" data-theme="default" title="Predefinido" aria-label="Tema predefinido"></button>
+        <button class="theme-swatch" data-theme="terra" title="Terra" aria-label="Tema terra-cota"></button>
+        <button class="theme-swatch" data-theme="dark" title="Escuro" aria-label="Tema escuro"></button>
+      </div>
+    </div>
+    <div class="theme-panel-section">
+      <span class="theme-panel-label">Tipo de letra</span>
+      <div class="font-options">
+        <button class="font-btn active" data-font="sans" title="Sans-serif">Aa</button>
+        <button class="font-btn" data-font="serif" title="Serifado">Aa</button>
+      </div>
+    </div>
+  </div>
+  <button id="theme-panel-toggle" title="Aparência" aria-label="Abrir opções de aparência" aria-expanded="false">
+    <i class="bi bi-palette"></i>
+  </button>
+</div>
+
+<script>
+(function () {
+  var THEME_KEY = 'hcgce-theme';
+  var FONT_KEY  = 'hcgce-font';
+
+  var panel   = document.getElementById('theme-panel-options');
+  var toggle  = document.getElementById('theme-panel-toggle');
+  var swatches = document.querySelectorAll('.theme-swatch');
+  var fontBtns = document.querySelectorAll('.font-btn');
+
+  function applyTheme(theme) {
+    document.body.classList.remove('theme-terra', 'theme-dark');
+    if (theme !== 'default') document.body.classList.add('theme-' + theme);
+    swatches.forEach(function (s) {
+      s.classList.toggle('active', s.dataset.theme === theme);
+    });
+    localStorage.setItem(THEME_KEY, theme);
+  }
+
+  function applyFont(font) {
+    document.body.classList.toggle('font-serif', font === 'serif');
+    fontBtns.forEach(function (b) {
+      b.classList.toggle('active', b.dataset.font === font);
+    });
+    localStorage.setItem(FONT_KEY, font);
+  }
+
+  function openPanel() {
+    panel.classList.add('open');
+    toggle.setAttribute('aria-expanded', 'true');
+  }
+
+  function closePanel() {
+    panel.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
+
+  toggle.addEventListener('click', function (e) {
+    e.stopPropagation();
+    panel.classList.contains('open') ? closePanel() : openPanel();
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!document.getElementById('theme-panel').contains(e.target)) closePanel();
+  });
+
+  swatches.forEach(function (s) {
+    s.addEventListener('click', function () { applyTheme(s.dataset.theme); });
+  });
+
+  fontBtns.forEach(function (b) {
+    b.addEventListener('click', function () { applyFont(b.dataset.font); });
+  });
+
+  // Restore saved preferences
+  applyTheme(localStorage.getItem(THEME_KEY) || 'default');
+  applyFont(localStorage.getItem(FONT_KEY)  || 'sans');
+
+  // Open PDF links in a new tab
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    var href = a.getAttribute('href');
+    if (href && (href.match(/\.pdf$/i) || href.includes('pdf-viewer'))) {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener');
+    }
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -703,97 +789,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
-<div id="theme-panel">
-  <div id="theme-panel-options" role="dialog" aria-label="Opções de aparência">
-    <div class="theme-panel-section">
-      <span class="theme-panel-label">Cores</span>
-      <div class="theme-swatches">
-        <button class="theme-swatch active" data-theme="default" title="Predefinido" aria-label="Tema predefinido"></button>
-        <button class="theme-swatch" data-theme="terra" title="Terra" aria-label="Tema terra-cota"></button>
-        <button class="theme-swatch" data-theme="dark" title="Escuro" aria-label="Tema escuro"></button>
-      </div>
-    </div>
-    <div class="theme-panel-section">
-      <span class="theme-panel-label">Tipo de letra</span>
-      <div class="font-options">
-        <button class="font-btn active" data-font="sans" title="Sans-serif">Aa</button>
-        <button class="font-btn" data-font="serif" title="Serifado">Aa</button>
-      </div>
-    </div>
-  </div>
-  <button id="theme-panel-toggle" title="Aparência" aria-label="Abrir opções de aparência" aria-expanded="false">
-    <i class="bi bi-palette"></i>
-  </button>
-</div>
-
-<script>
-(function () {
-  var THEME_KEY = 'hcgce-theme';
-  var FONT_KEY  = 'hcgce-font';
-
-  var panel   = document.getElementById('theme-panel-options');
-  var toggle  = document.getElementById('theme-panel-toggle');
-  var swatches = document.querySelectorAll('.theme-swatch');
-  var fontBtns = document.querySelectorAll('.font-btn');
-
-  function applyTheme(theme) {
-    document.body.classList.remove('theme-terra', 'theme-dark');
-    if (theme !== 'default') document.body.classList.add('theme-' + theme);
-    swatches.forEach(function (s) {
-      s.classList.toggle('active', s.dataset.theme === theme);
-    });
-    localStorage.setItem(THEME_KEY, theme);
-  }
-
-  function applyFont(font) {
-    document.body.classList.toggle('font-serif', font === 'serif');
-    fontBtns.forEach(function (b) {
-      b.classList.toggle('active', b.dataset.font === font);
-    });
-    localStorage.setItem(FONT_KEY, font);
-  }
-
-  function openPanel() {
-    panel.classList.add('open');
-    toggle.setAttribute('aria-expanded', 'true');
-  }
-
-  function closePanel() {
-    panel.classList.remove('open');
-    toggle.setAttribute('aria-expanded', 'false');
-  }
-
-  toggle.addEventListener('click', function (e) {
-    e.stopPropagation();
-    panel.classList.contains('open') ? closePanel() : openPanel();
-  });
-
-  document.addEventListener('click', function (e) {
-    if (!document.getElementById('theme-panel').contains(e.target)) closePanel();
-  });
-
-  swatches.forEach(function (s) {
-    s.addEventListener('click', function () { applyTheme(s.dataset.theme); });
-  });
-
-  fontBtns.forEach(function (b) {
-    b.addEventListener('click', function () { applyFont(b.dataset.font); });
-  });
-
-  // Restore saved preferences
-  applyTheme(localStorage.getItem(THEME_KEY) || 'default');
-  applyFont(localStorage.getItem(FONT_KEY)  || 'sans');
-
-  // Open PDF links in a new tab
-  document.querySelectorAll('a[href]').forEach(function (a) {
-    var href = a.getAttribute('href');
-    if (href && (href.match(/\.pdf$/i) || href.includes('pdf-viewer'))) {
-      a.setAttribute('target', '_blank');
-      a.setAttribute('rel', 'noopener');
-    }
-  });
-})();
-</script>
 
 </body></html>
