@@ -263,6 +263,9 @@ body.theme-dark .badge-soon {
   background-color: #333;
   color: #666;
 }
+body.theme-dark .chapter-item p {
+  color: #B0ACA8;
+}
 body.theme-dark .chapter-item.chapter-soon strong {
   color: #DEDAD4;
 }
