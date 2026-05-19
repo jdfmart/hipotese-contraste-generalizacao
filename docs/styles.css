@@ -123,6 +123,14 @@ body.theme-terra .chapter-item strong a:hover,
 body.theme-terra .chapter-item a:hover {
   color: #C05A2A;
 }
+body.theme-terra .chapter-item.chapter-soon strong {
+  color: #2B1A10;
+}
+body.theme-terra .chapters-peek-btn,
+body.theme-terra .chapters-peek-btn::after { background: #C05A2A; }
+body.theme-terra .chapters-peek-btn::after { border-top-color: #C05A2A; background: transparent; }
+body.theme-terra .chapters-peek-btn:hover { background: #A04020; }
+body.theme-terra .chapters-peek-btn:hover::after { border-top-color: #A04020; }
 body.theme-terra .footer-link {
   color: #D0CEC8 !important;
 }
@@ -255,9 +263,13 @@ body.theme-dark .badge-soon {
   background-color: #333;
   color: #666;
 }
-body.theme-dark .chapter-soon p {
-  color: #555;
+body.theme-dark .chapter-item.chapter-soon strong {
+  color: #DEDAD4;
 }
+body.theme-dark .chapters-peek-btn { background: #D4A450; }
+body.theme-dark .chapters-peek-btn::after { border-top-color: #D4A450; }
+body.theme-dark .chapters-peek-btn:hover { background: #B88030; }
+body.theme-dark .chapters-peek-btn:hover::after { border-top-color: #B88030; }
 body.theme-dark code,
 body.theme-dark pre {
   background-color: #2A2A2A;
@@ -654,12 +666,56 @@ p {
   padding: 3rem 2rem;
 }
 
-.landing-cover {
-  width: 42%;
+.cover-container {
   float: right;
+  width: 42%;
   margin: 0 0 1.5rem 2.5rem;
+}
+
+.landing-cover {
+  width: 100%;
   border-radius: 4px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.13);
+}
+
+.chapters-peek-btn {
+  display: block;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0.75rem;
+  padding: 0.65rem 0.8rem;
+  background: #B8860B;
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 0.77rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.chapters-peek-btn:hover {
+  background: #9A6C00;
+  color: #fff !important;
+}
+
+.chapters-peek-btn::after {
+  content: '';
+  position: absolute;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 14px solid transparent;
+  border-top-color: #B8860B;
+  border-bottom: 0;
+  transition: border-top-color 0.15s;
+}
+
+.chapters-peek-btn:hover::after {
+  border-top-color: #9A6C00;
 }
 
 .landing-structure-section {
@@ -718,8 +774,8 @@ p {
   color: #B8860B;
 }
 
-.chapter-soon p {
-  color: #888;
+.chapter-item.chapter-soon strong {
+  color: #1A1A1A;
 }
 
 .badge-soon {
@@ -919,9 +975,17 @@ p {
 }
 
 @media (max-width: 680px) {
-  .landing-cover {
+  .cover-container {
     width: 55%;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#conheça-a-estrutura-do-livro {
+  scroll-margin-top: 70px;
 }
 
 /* Center the "Ler livro" dropdown in the navbar */

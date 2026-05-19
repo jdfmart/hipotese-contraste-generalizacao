@@ -14,7 +14,10 @@ number: false
 ::: {.landing-intro-section}
 ::: {.landing-inner}
 
+<div class="cover-container">
 <a href="00-prologo.html"><img src="cover.png" alt="Capa do livro" class="landing-cover"/></a>
+<a href="#conheça-a-estrutura-do-livro" class="chapters-peek-btn">Veja a descrição dos capítulos a incluir</a>
+</div>
 
 ::: {.landing-title-block}
 # Hipótese, Contraste, Generalização e Contra-Exemplo {.unnumbered}
