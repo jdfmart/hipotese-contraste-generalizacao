@@ -767,6 +767,7 @@ p {
   color: #1A1A1A;
   text-decoration: none;
   font-size: 0.97rem;
+  font-weight: 600;
 }
 
 .chapter-item strong a:hover,
