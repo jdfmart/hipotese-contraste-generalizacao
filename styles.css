@@ -999,3 +999,61 @@ html {
   transform: translateX(-50%);
 }
 
+
+/* ============================================================
+   MOBILE IN-CHAPTER INDEX ("Neste capítulo")
+   Slim collapsible bar shown only when the right-hand #TOC is
+   hidden (below the lg breakpoint, < 992px).
+   ============================================================ */
+#mobile-toc { display: none; }
+
+@media (max-width: 991.98px) {
+  #mobile-toc {
+    display: block;
+    margin: 0 0 1.4rem;
+    border-top: 1px solid #e3e1d9;
+    border-bottom: 1px solid #e3e1d9;
+  }
+  #mobile-toc-toggle {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: 100%;
+    background: none;
+    border: 0;
+    padding: 7px 2px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #9a7414;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  #mobile-toc-toggle .mtoc-chev,
+  #mobile-toc-toggle .mtoc-ico { color: #B8860B; font-size: 0.9rem; }
+  #mobile-toc-toggle .mtoc-chev { transition: transform 0.2s; }
+  #mobile-toc.open #mobile-toc-toggle .mtoc-chev { transform: rotate(90deg); }
+  #mobile-toc-list { overflow: hidden; max-height: 0; transition: max-height 0.28s ease; }
+  #mobile-toc.open #mobile-toc-list { max-height: 70vh; overflow-y: auto; }
+  #mobile-toc-list ul { list-style: none; padding: 0 0 0.5rem 0.6rem; margin: 0; }
+  #mobile-toc-list ul ul { padding-left: 0.9rem; }
+  #mobile-toc-list li { margin: 0; }
+  #mobile-toc-list a {
+    display: block;
+    padding: 5px 0;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: #4a4a4a;
+    text-decoration: none;
+    border-bottom: 1px solid #f1efe9;
+  }
+  #mobile-toc-list a:hover { color: #B8860B; }
+}
+
+body.theme-terra #mobile-toc { border-color: #d9c9b3; }
+body.theme-terra #mobile-toc-list a { color: #5a4a3a; border-bottom-color: #e7dccd; }
+body.theme-dark #mobile-toc { border-color: #3a3a3a; }
+body.theme-dark #mobile-toc-toggle { color: #d9b25a; }
+body.theme-dark #mobile-toc-list a { color: #c9c7c0; border-bottom-color: #333; }
+body.theme-dark #mobile-toc-list a:hover { color: #e0b54f; }

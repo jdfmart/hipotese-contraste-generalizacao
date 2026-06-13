@@ -698,6 +698,54 @@ Karl R. Popper (O Realismo e o Objetivo da Ciência)
   });
 })();
 </script>
+<script>
+(function () {
+  function buildMobileToc() {
+    var toc = document.getElementById('TOC');
+    var content = document.getElementById('quarto-document-content');
+    if (!toc || !content) return;
+    var srcList = toc.querySelector('ul');
+    if (!srcList || !srcList.querySelector('a')) return;
+    if (document.getElementById('mobile-toc')) return;
+
+    var wrap = document.createElement('nav');
+    wrap.id = 'mobile-toc';
+    wrap.setAttribute('aria-label', 'Neste capítulo');
+
+    var btn = document.createElement('button');
+    btn.id = 'mobile-toc-toggle';
+    btn.type = 'button';
+    btn.setAttribute('aria-expanded', 'false');
+    btn.innerHTML = '<i class="bi bi-chevron-right mtoc-chev" aria-hidden="true"></i>' +
+                    '<i class="bi bi-list-ul mtoc-ico" aria-hidden="true"></i>Neste capítulo';
+
+    var listWrap = document.createElement('div');
+    listWrap.id = 'mobile-toc-list';
+    listWrap.appendChild(srcList.cloneNode(true));
+
+    wrap.appendChild(btn);
+    wrap.appendChild(listWrap);
+    content.insertBefore(wrap, content.firstChild);
+
+    btn.addEventListener('click', function () {
+      var open = wrap.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    listWrap.addEventListener('click', function (e) {
+      if (e.target.closest('a')) {
+        wrap.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', buildMobileToc);
+  } else {
+    buildMobileToc();
+  }
+})();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
