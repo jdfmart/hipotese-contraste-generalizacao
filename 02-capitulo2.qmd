@@ -424,8 +424,6 @@ De acordo com Boudry (2022), é mais natural dar às comunidades de investigaç�
 
 ### O Novo Experimentalismo {#sec-2-1-16}
 
-![](images/ch2/image8.png)
-
 Segundo Mayo (1996; Mayo & Spanos, 2009), os experimentos científicos não se limitam a ser úteis para o teste de teorias. Pelo contrário, os experimentos em Ciência, podem ter uma "vida própria", que é independente de "teorias de alto nível" porque os cientistas têm estratégias práticas para minimizar os erros, o que institui a realidade dos efeitos experimentais, sem a necessidade de recorrer a teorias de alto nível. Como tal, existe um domínio do conhecimento experimental que pode ser estabelecido de forma fiável e independente de teorias de alto nível. Estes efeitos experimentais cuja realidade é consensual, mas cuja interpretação pode divergir (e diverge na maior parte dos casos) traduzem-se em referências inevitáveis para qualquer nova teoria (quer dizer, qualquer nova teoria para ser levada a sério num dado domínio, tem de explicar os efeitos dos "experimentos com vida própria" desse domínio, ver por exemplo, a proposta de Anderson & Milson, 1989, de um novo modelo de memória). O progresso científico, segundo esta perspetiva, consiste na "acumulação constante do stock de conhecimento experimental" (os efeitos dos experimentos com vida própria), que se traduz em restrições à teorização, tornando as novas propostas teóricas mais semelhantes entre si e a escolha entre teorias uma questão cada vez mais técnica e menos substantiva (ver exemplo na caixa 7).
 
 ::: {.topico-box}
@@ -499,3 +497,4 @@ Uma possível contribuição para a demarcação entre ciência e pseudociência
 
 Assim, a verdadeira atitude científica representa uma posição moderadamente cética, em que o conhecimento nunca é dado como definitivo e em que o cientista deve manter abertura de espírito para ser capaz de questionar o estado atual da arte na sua disciplina e os seus respetivos fundamentos sempre que necessário. A atitude científica cética implica, assim, quer um sentido de escrutínio constante das posições e dos resultados obtidos pela comunidade a que o cientista pertence, quer a defesa da pluralidade de abordagens, teorias e paradigmas científicos alternativos.
 :::
+                            
