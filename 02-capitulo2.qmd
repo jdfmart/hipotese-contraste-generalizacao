@@ -109,6 +109,7 @@ O problema de Hume
 :::
 
 Como já vimos, segundo Hume, a indução implica a generalização das características dos casos que observamos para a caracterização de casos que nunca observamos. Como tal, nunca está garantido que, mesmo partindo de premissas verdadeiras, uma inferência indutiva seja verdadeira. Segundo Hume, a razão para acreditarmos em tais inferências, tem mais quer ver com as nossas limitações cognitivas do que com qualquer argumento racional ou evidência empírica que apoie tais inferências. Bertrand Russell, ilustrava o problema de Hume com uma história cheia de moral, a história do peru indutivista:
+
 "Este peru descobriu que, na sua primeira manhã na fazenda de perus, foi alimentado às 9 da manhã. No entanto, sendo o peru, um bom peru indutivista, não se permitiu conclusões precipitadas. Esperou até ter recolhido um grande número de observações sobre o facto de ter sido alimentado às 9 da manhã e recolheu estas observações sob uma grande variedade de circunstâncias – às quartas e quintas-feiras, em dias quentes e dias frios, em dias chuvosos e dias secos. Todos os dias, acrescentou outra instância à sua lista de observações. Finalmente, o carácter sistemático e exaustivo da sua lista de observações tornou-se indubitável e o peru sentiu-se confiante na realização da seguinte inferência indutiva: "Sou sempre alimentado às 9h da manhã.". Infelizmente, esta conclusão mostrou-se claramente falsa quando, na véspera de Natal, em vez de ser alimentado, lhe cortaram a garganta. Moral: Uma inferência indutiva mesmo com premissas verdadeiras pode sempre conduzir a uma falsa conclusão."
 
 Mas a falta de justificação racional para a indução só se torna verdadeiramente problemática para quem quer assentar como Bacon o método científico na indução, ou de uma forma geral, para quem pretende argumentar que as teorias, leis, generalizações, ou mais geralmente, os conhecimentos científicos têm necessariamente de ter uma base empírica que lhes permita partir do particular e alcançar o geral. Ou seja, a falta de justificação racional para a indução transtorna especificamente os indutivistas mas também os empiristas no geral. Popper deixa cair os primeiros e vem em socorro dos segundos. Assim, o fundamento empírico da ciência não advém da indução mas sim da dedução, ou dizendo de uma forma mais prosaica, vem do método de tentativa e erro (o falibilismo).[^02-capitulo2-4] É de notar que uma indução é dedutivamente inválida, senão observe-se o seguinte silogismo:
@@ -192,9 +193,7 @@ Mas alguns seis anos após a publicação da Lógica da Descoberta Científica, 
 ::: {.topico-box}
 **CAIXA 3 - Os Casos Gettier**
 
-Edmund Gettier era um jovem filósofo americano que procurava alcançar o provimento definitivo da sua posição académica. A produção académica (isto é, a publicação de artigos em revistas da sua especialidade académica e que sejam muito citados pelos pares) é fundamental para se alcançar um vínculo. Infelizmente, o seu registo de publicações era muito reduzido e a data da decisão sobre o seu provimento aproximava-se a grande velocidade. Gettier precisava de algo sobre o qual escrever, algo que fosse interessante, publicável e, acima de tudo, algo que pudesse ser escrito muito rapidamente. Num inusitado impulso, Gettier escreveu um pequeno artigo de três páginas descrevendo sua objeção à visão do conhecimento como "crença verdadeira justificada" e enviou-o para a conceituada revista de filosofia Analysis.
-
-Foi publicado em 1963 e criou a tempestade perfeita.
+Edmund Gettier era um jovem filósofo americano que procurava alcançar o provimento definitivo da sua posição académica. A produção académica (isto é, a publicação de artigos em revistas da sua especialidade académica e que sejam muito citados pelos pares) é fundamental para se alcançar um vínculo. Infelizmente, o seu registo de publicações era muito reduzido e a data da decisão sobre o seu provimento aproximava-se a grande velocidade. Gettier precisava de algo sobre o qual escrever, algo que fosse interessante, publicável e, acima de tudo, algo que pudesse ser escrito muito rapidamente. Num inusitado impulso, Gettier escreveu um pequeno artigo de três páginas descrevendo sua objeção à visão do conhecimento como "crença verdadeira justificada" e enviou-o para a conceituada revista de filosofia Analysis. Foi publicado em 1963 e criou a tempestade perfeita.
 
 No seu artigo original, Gettier (1963) apresentou casos hipotéticos em que uma crença verdadeira justificada não correspondia a verdadeiro conhecimento. A partir daí construir casos hipotéticos desse tipo tornou-se uma pequena indústria filosófica e, por isso, abaixo adapto e simplifico um dos meus casos preferidos da autoria de Goldman (1976), o chamado caso do "condado dos falsos celeiros".
 
@@ -446,7 +445,9 @@ O paradigma de Hamilton e Gifford (1976) produz resultados que são apenas fraca
 
 Mais recentemente, no seu livro de 2020, "A Máquina do Conhecimento: Como a Irracionalidade criou a Ciência Moderna", Michael Strevens faz a seguinte pergunta: "Por que não foi então Aristóteles o inventor da ciência moderna?". Afinal podemos encontrar inúmeros passos em que Aristóteles sublinha a necessidade daquele que procura a verdade se comprometer com a evidência. Por exemplo, "Crédito só deve ser dado às teorias quando o que elas afirmam estiver de acordo com os factos observados." Antes de responder, Strevens chama atenção que os factos e as evidências de que fala Aristóteles são muito diferentes das minúcias excruciantes que habitualmente contam em ciência como factos e evidências. Mas tomemos um exemplo, apresentado por Strevens (2020):
 
-Em 1915, Einstein propôs uma nova teoria da gravitação — a teoria geral da relatividade. A gravidade, segundo Einstein, não era uma força, mas sim a manifestação da propensão da matéria a viajar pelo caminho mais reto possível através do espaço-tempo distorcido. A relatividade mudou radicalmente o conceito de gravidade, mas testá-la exigiu o escrutínio das tais minúcias excruciantes. Quando Arthur Eddington procurou evidências experimentais para a teoria medindo a propensão da gravidade para distorcer a luz das estrelas, fotografou o mesmo campo estelar tanto à noite como durante um eclipse do Sol e realizou tais mensurações em S. Tomé e no Brasil. Eddington procurava um ligeiro deslocamento nas posições das estrelas – o que revelaria o grau em que a massa do sol desviava a sua própria luz. A mudança de posição da luz das estrelas observada foi da ordem de uma fração de milímetro nas chapas fotográficas utilizadas. Mas nessa minúscula discrepância estava a razão para aceitar uma visão totalmente nova da natureza das forças que moldam as galáxias.
+Em 1915, Einstein propôs uma nova teoria da gravitação — a teoria geral da relatividade. A gravidade, segundo Einstein, não era uma força, mas sim a manifestação da propensão da matéria a viajar pelo caminho mais reto possível através do espaço-tempo distorcido. A relatividade mudou radicalmente o conceito de gravidade, mas testá-la exigiu o escrutínio das tais minúcias excruciantes.
+
+Quando Arthur Eddington procurou evidências experimentais para a teoria medindo a propensão da gravidade para distorcer a luz das estrelas, fotografou o mesmo campo estelar tanto à noite como durante um eclipse do Sol e realizou tais mensurações em S. Tomé e no Brasil. Eddington procurava um ligeiro deslocamento nas posições das estrelas – o que revelaria o grau em que a massa do sol desviava a sua própria luz. A mudança de posição da luz das estrelas observada foi da ordem de uma fração de milímetro nas chapas fotográficas utilizadas. Mas nessa minúscula discrepância estava a razão para aceitar uma visão totalmente nova da natureza das forças que moldam as galáxias.
 
 Aristóteles não teria pensado em ir a estes lugares para estudar tais diminutas magnitudes. Mesmo os pensadores pré-científicos quando procuravam uma correspondência entre as suas ideias e os factos observados, referiam-se aos factos que qualquer pessoa poderia facilmente encontrar no mundo que os rodeia: os movimentos grosseiros das balas de canhão e dos cometas; a sintonia global dos animais e das suas imediações; os gostos, cheiros e sons. Mas estariam a olhar para o lugar errado. As pistas para as verdades mais profundas revelam-se às vezes no muitíssimo mais pequeno, outras no muitíssimo distante, mas sempre no rigorosamente exato.
 
@@ -465,36 +466,39 @@ A regra de ferro estipula que a beleza das ideias, a plausibilidade dos argument
 ::: sumario-box
 **Sumário do Capítulo 2**
 
-O conhecimento científico não é o conhecimento verdadeiro.
+1\. O conhecimento científico não é o conhecimento verdadeiro.
 
-Teorias científicas com enorme corroboração empírica podem ser falsas (a mecânica newtoniana). O conhecimento científico é falível.
+2\. Teorias científicas com enorme corroboração empírica podem ser falsas (a mecânica newtoniana). O conhecimento científico é falível.
 
-A indução não é racionalmente justificável.
+3\. A indução não é racionalmente justificável.
 
-O conhecimento científico não pode ser logicamente justificado.
+4\. O conhecimento científico não pode ser logicamente justificado.
 
-A refutação na investigação de leis universais é logicamente superior à verificação.
+5\. A refutação na investigação de leis universais é logicamente superior à verificação.
 
-A refutação não é instantânea nem pode ser caraterizada em termos meramente lógicos.
+6\. A refutação não é instantânea nem pode ser caraterizada em termos meramente lógicos.
 
-A refutação pode, provavelmente, ser caracterizada como uma inferência para a melhor explicação.
+7\. A refutação pode, provavelmente, ser caracterizada como uma inferência para a melhor explicação.
 
-Não se encontrou ainda um critério completamente convincente de demarcação entre ciência e não-ciência. No entanto, a procura do critério de demarcação leva à identificação de restrições e qualificações muito importantes.
+8\. Não se encontrou ainda um critério completamente convincente de demarcação entre ciência e não-ciência. No entanto, a procura do critério de demarcação leva à identificação de restrições e qualificações muito importantes.
 
-A delimitação entre as ciências naturais e outras formas de conhecimento (filosofia, matemática) é uma questão menor. É a demarcação entre ciência e pseudociência que é crucial para compreender a natureza da ciência e do conhecimento e possui uma relevância social crítica.
+9\. A delimitação entre as ciências naturais e outras formas de conhecimento (filosofia, matemática) é uma questão menor. É a demarcação entre ciência e pseudociência que é crucial para compreender a natureza da ciência e do conhecimento e possui uma relevância social crítica.
 
-Não existe, provavelmente, um critério de demarcação aristotélico, composto por um grupo de atributos que sejam necessários e suficientes para a categorização em ciência versus pseudociência, mas sim um critério difuso de estrutura gradativa com base em "parecenças de família" wittgensteinianas.
+10\. Não existe, provavelmente, um critério de demarcação aristotélico, composto por um grupo de atributos que sejam necessários e suficientes para a categorização em ciência versus pseudociência, mas sim um critério difuso de estrutura gradativa com base em “parecenças de família” wittgensteinianas.
 
-Do critério difuso de demarcação entre ciência e pseudociência, fará provavelmente parte ter, como objeto, o mundo natural, oferecer explicações teóricas coerentes e abrangentes no domínio a que se propõe, ter uma base empírica crescente, com uma igualmente crescente acumulação de experimentos com vida própria inseridos numa tradição experimental progressiva. Será a presença ou ausência do conjunto de tais atributos que determinará quanto cada empreendimento se pode considerar um melhor ou pior exemplo de ciência.
+11\. Do critério difuso de demarcação entre ciência e pseudociência, fará provavelmente parte ter, como objeto, o mundo natural, oferecer explicações teóricas coerentes e abrangentes no domínio a que se propõe, ter uma base empírica crescente, com uma igualmente crescente acumulação de experimentos com vida própria inseridos numa tradição experimental progressiva. Será a presença ou ausência do conjunto de tais atributos que determinará quanto cada empreendimento se pode considerar um melhor ou pior exemplo de ciência.
 
-Mesmo que não seja possível a justificação científica, é possível o progresso científico através do aumento das restrições à teorização (experimentos com vida própria) e da resolução de cada vez mais problemas empíricos e teóricos, cada vez mais importantes e cada vez mais específicos.
+12\. Mesmo que não seja possível a justificação científica, é possível o progresso científico através do aumento das restrições à teorização (experimentos com vida própria) e da resolução de cada vez mais problemas empíricos e teóricos, cada vez mais importantes e cada vez mais específicos.
 
-Se o objetivo da ciência for a resolução de problemas empíricos e teóricos e o aumento das restrições à teorização, então as teorias, os programas e as tradições de investigação que promovam estes atributos têm de consideradas como um melhor exemplo de ciência e a sua promoção tem de considerada como racional.
+13\. Se o objetivo da ciência for a resolução de problemas empíricos e teóricos e o aumento das restrições à teorização, então as teorias, os programas e as tradições de investigação que promovam estes atributos têm de consideradas como um melhor exemplo de ciência e a sua promoção tem de considerada como racional.
 
-A epistemologia moderna aceita como válido o trilema de Agripa sobre a impossibilidade de fornecer fundamentos indiscutíveis para o conhecimento (um que evitasse a regressão infinita, a circularidade ou a mera hipótese). E epistemologia moderna carateriza o conhecimento como conjetural, temporário e alterável e como passível de recorrer a critérios extra-empiricos e extra-lógicos para a seleção de teorias em ciência, tais como a parcimónia, a abrangência, a sobrevivência a testes severos de cada teoria, etc. (no fundo o processo de inferência para a melhor explicação, ver Russell, 1912, 1913).
+14\. A epistemologia moderna aceita como válido o trilema de Agripa sobre a impossibilidade de fornecer fundamentos indiscutíveis para o conhecimento (um que evitasse a regressão infinita, a circularidade ou a mera hipótese). E epistemologia moderna carateriza o conhecimento como conjetural, temporário e alterável e como passível de recorrer a critérios extra-empiricos e extra-lógicos para a seleção de teorias em ciência, tais como a parcimónia, a abrangência, a sobrevivência a testes severos de cada teoria, etc. (no fundo o processo de inferência para a melhor explicação, ver Russell, 1912, 1913).
 
-A atitude científica (individual, coletiva e institucional) pode constituir o critério necessário para a atribuição do estatuto científico a uma determinada disciplina científica.
+15\. A atitude científica (individual, coletiva e institucional) pode constituir o critério necessário para a atribuição do estatuto científico a uma determinada disciplina científica.
 
-A Regra de Ferro identificada por Strevens (2022) como "o único tipo de argumento permitido nos órgãos oficiais de comunicação da ciência é aquele que avalia uma teoria de acordo com sua capacidade de prever ou explicar os factos observáveis." parece oferecer um complemento natural à atitude científica e pode considerar-se como mais um atributo necessário da Ciência.
+16\. A Regra de Ferro identificada por Strevens (2022) como “o único tipo de argumento permitido nos órgãos oficiais de comunicação da ciência é aquele que avalia uma teoria de acordo com sua capacidade de prever ou explicar os factos observáveis.” parece oferecer um complemento natural à atitude científica e pode considerar-se como mais um atributo necessário da Ciência.
 
-Uma possível contribuição para a demarcação entre ciência e pseudoci
+17\. Uma possível contribuição para a demarcação entre ciência e pseudociência é a identificação dos critérios que caracterizam a pseudociência. Tal caracterização pode também contribuir para a prevenção, identificação e correção dessas mesmas tendências no desenvolvimento de disciplinas que queiram ser científicas.
+
+18\. Assim, a verdadeira atitude científica representa uma posição moderadamente cética, em que o conhecimento nunca é dado como definitivo e em que o cientista deve manter abertura de espírito para ser capaz de questionar o estado atual da arte na sua disciplina e os seus respetivos fundamentos sempre que necessário. A atitude científica cética implica, assim, quer um sentido de escrutínio constante das posições e dos resultados obtidos pela comunidade a que o cientista pertence, quer a defesa da pluralidade de abordagens, teorias e paradigmas científicos alternativos.
+:::
