@@ -17,7 +17,7 @@ book:
           - text: "Ler online"
             icon: book
             href: 00-prologo.html
-          - text: "Baixar PDF"
+          - text: "Transferir PDF"
             icon: filetype-pdf
             href: HCGCE.pdf
           - text: "Ler PDF online"

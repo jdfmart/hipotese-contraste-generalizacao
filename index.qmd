@@ -55,7 +55,7 @@ Esperamos que esta leitura não apenas satisfaça a curiosidade do leitor, mas t
 ```{=html}
 <div class="landing-cta">
   <a href="00-prologo.html" class="cta-link"><i class="bi bi-book"></i> Ler online</a>
-  <a href="HCGCE.pdf" class="cta-link" target="_blank" rel="noopener"><i class="bi bi-filetype-pdf"></i> Baixar PDF</a>
+  <a href="HCGCE.pdf" class="cta-link" target="_blank" rel="noopener"><i class="bi bi-filetype-pdf"></i> Transferir PDF</a>
   <a href="pdf-viewer.html" class="cta-link" target="_blank" rel="noopener"><i class="bi bi-display"></i> Ler PDF online</a>
 </div>
 ```
@@ -155,7 +155,7 @@ Defesa do primado da razão e da evidência como insubstituíveis para o pensame
     </div>
     <div class="site-footer-col site-footer-nav">
       <a href="00-prologo.html" class="footer-link"><i class="bi bi-book"></i> Ler online</a>
-      <a href="HCGCE.pdf" class="footer-link"><i class="bi bi-filetype-pdf"></i> Baixar PDF</a>
+      <a href="HCGCE.pdf" class="footer-link"><i class="bi bi-filetype-pdf"></i> Transferir PDF</a>
       <a href="pdf-viewer.html" class="footer-link"><i class="bi bi-display"></i> Ler PDF online</a>
     </div>
     <div class="site-footer-col site-footer-contact">
