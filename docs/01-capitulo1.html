@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,15 +32,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="./02-capitulo2.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-db39bdc3254459fa84b6505a03334ab5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-364982630eef5352dd1537128a8ed5cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,8 +80,6 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Hipótese, Contraste, Generalização e Contra-Exemplo</span>
     </a>
@@ -143,10 +140,6 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="./index.html" class="sidebar-logo-link">
-      </a>
-      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -361,142 +354,323 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <div id="theme-panel">
+
   <div id="theme-panel-options" role="dialog" aria-label="Opções de aparência">
+
     <div class="theme-panel-section">
+
       <span class="theme-panel-label">Cores</span>
+
       <div class="theme-swatches">
+
         <button class="theme-swatch active" data-theme="default" title="Predefinido" aria-label="Tema predefinido"></button>
+
         <button class="theme-swatch" data-theme="terra" title="Terra" aria-label="Tema terra-cota"></button>
+
         <button class="theme-swatch" data-theme="dark" title="Escuro" aria-label="Tema escuro"></button>
+
       </div>
+
     </div>
+
     <div class="theme-panel-section">
+
       <span class="theme-panel-label">Tipo de letra</span>
+
       <div class="font-options">
+
         <button class="font-btn active" data-font="sans" title="Sans-serif">Aa</button>
+
         <button class="font-btn" data-font="serif" title="Serifado">Aa</button>
+
       </div>
+
     </div>
+
   </div>
+
   <button id="theme-panel-toggle" title="Aparência" aria-label="Abrir opções de aparência" aria-expanded="false">
+
     <i class="bi bi-palette"></i>
+
   </button>
+
 </div>
 
+
+
 <script>
+
 (function () {
+
   var THEME_KEY = 'hcgce-theme';
+
   var FONT_KEY  = 'hcgce-font';
 
+
+
   var panel   = document.getElementById('theme-panel-options');
+
   var toggle  = document.getElementById('theme-panel-toggle');
+
   var swatches = document.querySelectorAll('.theme-swatch');
+
   var fontBtns = document.querySelectorAll('.font-btn');
 
+
+
   function applyTheme(theme) {
+
     document.body.classList.remove('theme-terra', 'theme-dark');
+
     if (theme !== 'default') document.body.classList.add('theme-' + theme);
+
     swatches.forEach(function (s) {
+
       s.classList.toggle('active', s.dataset.theme === theme);
+
     });
+
     localStorage.setItem(THEME_KEY, theme);
+
   }
+
+
 
   function applyFont(font) {
+
     document.body.classList.toggle('font-serif', font === 'serif');
+
     fontBtns.forEach(function (b) {
+
       b.classList.toggle('active', b.dataset.font === font);
+
     });
+
     localStorage.setItem(FONT_KEY, font);
+
   }
+
+
 
   function openPanel() {
+
     panel.classList.add('open');
+
     toggle.setAttribute('aria-expanded', 'true');
+
   }
+
+
 
   function closePanel() {
+
     panel.classList.remove('open');
+
     toggle.setAttribute('aria-expanded', 'false');
+
   }
+
+
 
   toggle.addEventListener('click', function (e) {
+
     e.stopPropagation();
+
     panel.classList.contains('open') ? closePanel() : openPanel();
+
   });
+
+
 
   document.addEventListener('click', function (e) {
+
     if (!document.getElementById('theme-panel').contains(e.target)) closePanel();
+
   });
+
+
 
   swatches.forEach(function (s) {
+
     s.addEventListener('click', function () { applyTheme(s.dataset.theme); });
+
   });
+
+
 
   fontBtns.forEach(function (b) {
+
     b.addEventListener('click', function () { applyFont(b.dataset.font); });
+
   });
+
+
 
   // Restore saved preferences
+
   applyTheme(localStorage.getItem(THEME_KEY) || 'default');
+
   applyFont(localStorage.getItem(FONT_KEY)  || 'sans');
 
+
+
   // Open PDF links in a new tab
+
   document.querySelectorAll('a[href]').forEach(function (a) {
+
     var href = a.getAttribute('href');
+
     if (href && (href.match(/\.pdf$/i) || href.includes('pdf-viewer'))) {
+
       a.setAttribute('target', '_blank');
+
       a.setAttribute('rel', 'noopener');
+
     }
+
   });
+
 })();
+
 </script>
+
+
+
 <script>
+
 (function () {
+
   function buildMobileToc() {
+
     var toc = document.getElementById('TOC');
+
     var content = document.getElementById('quarto-document-content');
+
     if (!toc || !content) return;
+
     var srcList = toc.querySelector('ul');
+
     if (!srcList || !srcList.querySelector('a')) return;
+
     if (document.getElementById('mobile-toc')) return;
 
+
+
     var wrap = document.createElement('nav');
+
     wrap.id = 'mobile-toc';
+
     wrap.setAttribute('aria-label', 'Neste capítulo');
 
+
+
     var btn = document.createElement('button');
+
     btn.id = 'mobile-toc-toggle';
+
     btn.type = 'button';
+
     btn.setAttribute('aria-expanded', 'false');
+
     btn.innerHTML = '<i class="bi bi-chevron-right mtoc-chev" aria-hidden="true"></i>' +
+
                     '<i class="bi bi-list-ul mtoc-ico" aria-hidden="true"></i>Neste capítulo';
 
+
+
     var listWrap = document.createElement('div');
+
     listWrap.id = 'mobile-toc-list';
+
     listWrap.appendChild(srcList.cloneNode(true));
 
+
+
     wrap.appendChild(btn);
+
     wrap.appendChild(listWrap);
+
     content.insertBefore(wrap, content.firstChild);
 
+
+
     btn.addEventListener('click', function () {
+
       var open = wrap.classList.toggle('open');
+
       btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+
     });
+
     listWrap.addEventListener('click', function (e) {
+
       if (e.target.closest('a')) {
+
         wrap.classList.remove('open');
+
         btn.setAttribute('aria-expanded', 'false');
+
       }
+
     });
+
   }
+
   if (document.readyState === 'loading') {
+
     document.addEventListener('DOMContentLoaded', buildMobileToc);
+
   } else {
+
     buildMobileToc();
+
   }
+
 })();
+
+</script>
+
+
+
+<script>
+
+(function () {
+
+  function enhance() {
+
+    document.querySelectorAll('.exemplo-box').forEach(function (box) {
+
+      var ps = box.querySelectorAll('p');
+
+      for (var i = 0; i < ps.length; i++) {
+
+        if (/^\s*Logo[,\s]/.test(ps[i].textContent)) { ps[i].classList.add('conclusao-line'); break; }
+
+      }
+
+    });
+
+    if (location.pathname.indexOf('00-prologo') >= 0) {
+
+      var next = document.querySelector('.nav-page-next');
+
+      if (next && !next.querySelector('a')) {
+
+        next.innerHTML = '<a class="pagination-link" href="./01-capitulo1.html"><span class="nav-page-text">Por que precisamos da ciência — e deste livro?</span> <i class="bi bi-arrow-right-short"></i></a>';
+
+      }
+
+    }
+
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', enhance);
+
+  else enhance();
+
+})();
+
 </script>
 
 <script id="quarto-html-after-body" type="application/javascript">
@@ -550,14 +724,13 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -912,27 +1085,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
-
-<script>
-(function () {
-  function enhance() {
-    document.querySelectorAll('.exemplo-box').forEach(function (box) {
-      var ps = box.querySelectorAll('p');
-      for (var i = 0; i < ps.length; i++) {
-        if (/^\s*Logo[,\s]/.test(ps[i].textContent)) { ps[i].classList.add('conclusao-line'); break; }
-      }
-    });
-    if (location.pathname.indexOf('00-prologo') >= 0) {
-      var next = document.querySelector('.nav-page-next');
-      if (next && !next.querySelector('a')) {
-        next.innerHTML = '<a class="pagination-link" href="./01-capitulo1.html"><span class="nav-page-text">Por que precisamos da ciência — e deste livro?</span> <i class="bi bi-arrow-right-short"></i></a>';
-      }
-    }
-  }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', enhance);
-  else enhance();
-})();
-</script>
 
 </body></html>
