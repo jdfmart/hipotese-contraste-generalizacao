@@ -6,3 +6,12 @@
 /.quarto/
 
 **/*.quarto_ipynb
+
+# Local working files / other-project material (not for the repo)
+.claude/
+buro/
+textos originais/
+index.tex
+resume.txt
+PLANO.md
+comparacao_pdf_vs_site.md
