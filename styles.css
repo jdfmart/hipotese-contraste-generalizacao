@@ -1057,3 +1057,15 @@ body.theme-dark #mobile-toc { border-color: #3a3a3a; }
 body.theme-dark #mobile-toc-toggle { color: #d9b25a; }
 body.theme-dark #mobile-toc-list a { color: #c9c7c0; border-bottom-color: #333; }
 body.theme-dark #mobile-toc-list a:hover { color: #e0b54f; }
+
+/* ============================================================
+   EXAMPLE-BOX: rule between premises and the "Logo," conclusion
+   (separator line drawn above the conclusion; added via JS class)
+   ============================================================ */
+.exemplo-box p.conclusao-line {
+  border-top: 1px solid #c9c7bf;
+  padding-top: 0.6rem;
+  margin-top: 0.6rem;
+}
+body.theme-terra .exemplo-box p.conclusao-line { border-top-color: #cdb89a; }
+body.theme-dark  .exemplo-box p.conclusao-line { border-top-color: #555555; }

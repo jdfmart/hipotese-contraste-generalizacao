@@ -913,4 +913,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
+<script>
+(function () {
+  function enhance() {
+    document.querySelectorAll('.exemplo-box').forEach(function (box) {
+      var ps = box.querySelectorAll('p');
+      for (var i = 0; i < ps.length; i++) {
+        if (/^\s*Logo[,\s]/.test(ps[i].textContent)) { ps[i].classList.add('conclusao-line'); break; }
+      }
+    });
+    if (location.pathname.indexOf('00-prologo') >= 0) {
+      var next = document.querySelector('.nav-page-next');
+      if (next && !next.querySelector('a')) {
+        next.innerHTML = '<a class="pagination-link" href="./01-capitulo1.html"><span class="nav-page-text">Por que precisamos da ciência — e deste livro?</span> <i class="bi bi-arrow-right-short"></i></a>';
+      }
+    }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', enhance);
+  else enhance();
+})();
+</script>
+
 </body></html>
