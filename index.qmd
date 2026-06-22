@@ -160,7 +160,7 @@ Defesa do primado da razão e da evidência como insubstituíveis para o pensame
     </div>
     <div class="site-footer-col site-footer-contact">
       <strong>Sugestões e contacto</strong>
-      <a href="mailto:email@email.com" class="footer-link"><i class="bi bi-envelope-at"></i> Email</a>
+      <a href="mailto:garcia_marques@sapo.pt" class="footer-link"><i class="bi bi-envelope-at"></i> Email</a>
     </div>
   </div>
 </footer>

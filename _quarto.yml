@@ -25,7 +25,7 @@ book:
             href: pdf-viewer.html
     right:
       - icon: envelope-at
-        href: mailto:email@email.com
+        href: mailto:garcia_marques@sapo.pt
   sidebar:
     title: "Índice"
   chapters:
